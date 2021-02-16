@@ -484,9 +484,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
     padding: 0.5em 0 0.5em 0;
   }
 }
-#featured .block ul, #featured .block ol {
-  padding: 0;
-}
 @media screen and (min-width: 860px) {
   #featured .views-field-title {
     padding: 1em 0 1em 0;
