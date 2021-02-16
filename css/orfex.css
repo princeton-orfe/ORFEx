@@ -190,10 +190,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 }
 
 @media screen and (max-width: 860px) {
-  .block ul {
-    padding: 0;
-  }
-
   .item-list ul li {
     margin: 0;
   }
