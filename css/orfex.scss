@@ -428,7 +428,7 @@ min-width: 370px;
 	p > a {
 		@media (prefers-color-scheme: dark) {
 			background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
-		background-size: 300px 45px;
+		background-size: 300px 25px;
 		text-indent: -999em;
 		min-width: 300px;
 		text-align: left;
@@ -436,7 +436,7 @@ min-width: 370px;
 		display: block;
 	}
 		background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
-		background-size: 300px 45px;
+		background-size: 300px 25px;
 		text-indent: -999em;
 		min-width: 300px;
 		text-align: left;
