@@ -1,2 +1,3 @@
 # ORFEx
-ORFEx Drupal Theme
+
+A subtheme of Responsive Bartik for the ORFE site.
