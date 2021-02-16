@@ -1,0 +1,1052 @@
+3.2.12 (Media Mark)
+4783c83bbb9f424fcf8038edf178219b460f5a75
+o:Sass::Tree::RootNode
+:@has_childrenT:@template"‘!/* All Sections */
+
+#branding p>a {
+background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+display: block;
+// height: 40px; 
+text-indent: -999em;
+min-width: 1200px;
+text-align: left;
+}
+
+ul.menu.clearfix {
+list-style-type: none;
+}
+
+#main-wrapper {
+margin-bottom: 1em;
+}
+
+#main {
+margin-top: 0;
+}
+
+.sidebar .block {
+	border-color: white;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.region-header, .region-header a, .region-header li a.active, #name-and-slogan, #name-and-slogan a, #secondary-menu-links li a {
+    color: black;
+    text-align: center;
+}
+
+#site-name a {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+#site-slogan {
+	font-size: 1.2em;
+	color: #666666;
+}
+
+tr, tr.odd {
+	background-color: white;
+}
+
+.region-header{
+	float: right;
+}
+
+#footer .block {
+clear: none;
+margin: 0 1em 0 1em;
+/* float: left; */
+}
+#block-block-1 {
+	margin-left: 0;
+}
+
+#footer .region {
+margin-top: 0;
+}
+
+#name-and-slogan {
+	margin: 0 30% 0 30%;
+	width: 55%;
+}
+
+#footer-wrapper {
+	padding: 0;
+}
+
+#footer {
+	margin-top: 0;
+}
+
+#footer .block .content {
+	margin-top: 0;
+}
+
+#main {
+	margin-bottom: 0;
+}
+
+.region-diptych-first, .region-diptych-second {
+display: inline;
+float: left;
+position: relative;
+width: 50%;
+}
+
+.block ol, .block ul {
+margin: 1em 0 0 0;
+padding: 0;
+}
+
+.field-type-taxonomy-term-reference {
+margin: 0;
+}
+
+.field-name-field-speaker {
+	font-size: 1.8em;
+}
+
+.field-name-field-institution {
+	font-size: 1.4em;
+}
+
+td {
+white-space: nowrap;
+}
+
+tr td, tr th {
+padding: 0 10px 0 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0.5em 0 0.5em 0;
+}
+
+/* Home Page */
+
+.page-home .tabs {
+display: none;
+}
+
+#triptych h2 {
+margin-bottom: 1em;
+}
+
+ul.menu li {
+margin: 0.5em 0;
+}
+
+/* Home Page - Event List */
+
+.view-display-id-upcoming_conferences .item-list ul li {
+	margin-bottom: 0.25em;
+}
+
+/* Home Page - Main Menu */
+
+.menu-block-18.menu-name-main-menu ul.menu li a {
+padding: 0 0.5em 0 0;
+color: white;
+font-size: 1.1em;
+}
+
+.menu-block-18.menu-name-main-menu ul.menu li a.active {
+color: rgb(201, 201, 201);
+}
+
+.menu-block-18.menu-name-main-menu ul li {
+display: inline;
+vertical-align: middle;
+}
+
+.menu-block-18.menu-name-main-menu ul.menu {
+	margin: 0;
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+}
+
+.menu-block-18.menu-name-main-menu ul>li {
+	margin:0;
+	padding:0;
+}
+
+.region-headerwell .menu-block-18.menu-name-main-menu {
+	background-color: rgba(129, 130, 133, 1);
+	width: 100%;
+}
+
+.view-display-id-frontpage_table td {
+        vertical-align: top;
+}
+
+/* Home Page - Administrative Menu */
+
+#block-menu-block-19 {
+border: 1px solid #be7;
+}
+
+#block-menu-block-19 h2 {
+display:none;
+}
+
+.menu-block-19.menu-name-navigation ul.menu li a {
+padding: 0 0.5em 0 0;
+color: gray;
+font-size: 1.1em;
+}
+
+.menu-block-19.menu-name-navigation ul.menu li a.active {
+color: rgb(81, 38, 6);
+}
+
+.menu-block-19.menu-name-navigation ul li {
+display: inline;
+vertical-align: middle;
+}
+
+.menu-block-19.menu-name-navigation ul.menu {
+        margin: 0;
+        padding: 0.5em 0 0.5em 0;
+        text-align: center;
+}
+
+.menu-block-19.menu-name-navigation ul>li {
+        margin:0;
+        padding:0;
+}
+
+.region-headerwell .menu-block-19.menu-name-navigation {
+        background-color: rgb(248, 255, 241);
+        width: 100%;
+}
+
+.view-display-id-frontpage_table td {
+        vertical-align: top;
+}
+
+
+/* Home Page - Content */
+
+#carmona-welcome {
+float: left;
+width: 20%;
+margin: 0 1em 1em 0;
+}
+
+/* Home Page - Header */
+
+.block-search {
+float: right;
+}
+
+#logo {
+max-width: 45%;
+min-width: 350px;
+}
+
+/* Home Page - Triptych */
+
+.views-row {
+margin: 0.25em 0 0.25em 0;
+}
+
+.view-research-areas-list .view-header {
+text-align:center;
+}
+
+.news.home .view-header {
+margin-bottom: 1em;
+padding-bottom: 1em;
+border-bottom: 1px solid #dfdfdf;
+line-height: 1.3;
+}
+
+/* Home Page - Spotlight */
+.views-slideshow-controls-bottom {
+display: table;
+margin: 0 auto;
+}
+
+#highlighted {
+border-bottom: none;
+margin-top: 0.75em;
+}
+
+.view-display-id-spotlight_block {
+.view-header {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.70196);
+    z-index: 200;
+    font-size: 1.5em;
+    padding: 0 1em 0 1em;
+}
+.views-field-title {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.70196);
+    z-index: 200;
+    font-size: 1.5em; 
+    margin: -1.7em 1em 0 0;
+    width: 100%;
+}
+
+/* Home Page - Slideshow */
+//Respond to mobile.
+
+@media screen and (max-width: 1024px){
+    .views-field-title {
+        font-size:1.25em; }
+
+}
+
+@media screen and (max-width: 768px) {
+	.views-field-title {
+	font-size: 1.1em;
+	position: relative;
+	margin: 0 auto;
+	z-index: 0;
+	background-color:white;	
+}
+	.view-header {
+	position:relative;
+	background-color:white;
+	z-index: 0;
+	font-size: 1.25em;
+	}
+
+}
+}
+
+/* Social Media Icons */
+#block-block-19 {
+float: right;
+}
+
+/* People Section */
+
+.faculty-contact-card, .contact-card {
+  float: left;
+  list-style: none;
+  width: 48%;
+/*  padding: 0 0 5% 0 !important; */
+
+
+@media screen and (max-width: 1024px) {
+float: none;
+list-style: none;
+width: 100%;
+padding: 0 0 5% 0 !important;
+}
+
+}
+
+.faculty-contact-card {
+min-height: 13em;
+}
+
+.contact-card {
+  min-height: 10em;
+}
+
+.page-people .item-list ul li .views-field-picture {
+  float: left;
+  padding: 0 0.5em 0 0;
+}
+
+.view-people.faculty .views-field-field-researchicon ul li {
+  clear: none;
+  float: left;
+  list-style-type: none;
+  margin: 0 0.25em 0 0.25em;
+  padding: 0;
+}
+
+/* Atrium - Spotlight, Events, Faculty Slideshow */
+
+.page-atrium-spotlight, .page-events-atrium, .page-people-faculty-slideshow {
+
+#header div.section, #featured div.section, #messages div.section, #main, #triptych, #footer-columns, #footer {
+	max-width: 1920px;
+}
+
+	#headerwell {
+	display: none;
+	}
+	#messages {
+	display: none;
+	}
+	#footer-wrapper {
+	display: none;
+	}
+	#search-block-form {
+	display: none;
+	}
+
+}
+
+/* Atrium - Events */
+
+.page-events-atrium {
+	font-size: 1.3em;
+}
+
+/* Atrium - Spotlight */
+
+.page-atrium-spotlight {
+        h1#page-title {
+        position: absolute;
+        color: #0090e4;
+        background-color: rgba(255, 255, 255, 0.70196);
+        z-index: 200;
+        font-size: 1.75em;
+        padding: 1em;
+        }
+        .views-field.views-field-title {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.70196);
+        color: #0090e4;
+        z-index: 200;
+        font-size: 1.75em;
+        margin: -1.7em 1em 0 0;
+        width: 100%;
+        }
+}
+
+/* Atrium - Faculty Slideshow */
+
+.page-people-faculty-slideshow {
+
+        h1#page-title {
+        position: absolute;
+        color: #0090e4;
+        background-color: rgba(255, 255, 255, 0.70196);
+        z-index: 200;
+        font-size: 1.75em;
+        padding: 0.5em;
+        }
+
+	#header {
+	display: none;
+	}
+
+	#main-wrapper {
+	background: #161617;
+	margin-bottom: 0;
+	}
+
+/* Fix this mess. */
+	div#views_slideshow_cycle_div_people-page_1_4.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-5.views_slideshow_cycle_hidden.views-row-odd, div#views_slideshow_cycle_div_people-page_1_3.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-4.views_slideshow_cycle_hidden.views-row-even, div#views_slideshow_cycle_div_people-page_1_2.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-3.views_slideshow_cycle_hidden.views-row-odd, div#views_slideshow_cycle_teaser_section_people-page_1.views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section, div#views_slideshow_cycle_div_people-page_1_1.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-2.views_slideshow_cycle_hidden.views-row-even {
+	overflow: visible;
+	background: white;
+	color: gray;
+	text-align:center;
+	width: 800px !important;
+	}
+
+	.views-slideshow-cycle-main-frame-row-item {
+  	float: left;
+	padding: 0.1em;
+}
+
+	.views-row {
+	width: 245px;
+	height: 500px;
+	}
+
+}
+
+/* Event Page */
+
+ul.event>li {
+margin-bottom: 1em;
+}
+
+/* Advisory Council */
+
+.view-advisory-council .views-row {
+margin: 2em 0 1em 0;
+}
+
+.advisory-council-member-photo {
+padding: 0.25em;
+}
+
+/* Academics - Academic Jobs */
+.view-display-id-academic_jobs_page .views-row, .page-about-employment .view-id-employment .views-row {
+  margin: 2em 0 2em 0;
+  padding: 0 0 2em 0;
+  border-bottom: 1px solid gray; }
+.view-display-id-academic_jobs_page .views-field-title, .page-about-employment .view-id-employment .views-field-title {
+  text-decoration: none;
+  margin: 0 0 1em 0; }
+.view-employment .views-field-title {
+  font-size: 1.2em; }
+
+/* Academics - Job Placement */
+
+.view-graduate-employment {
+ul li {
+list-style-type: none;
+}
+.item-list ul li {
+margin-bottom: 25px;
+}
+}
+:@children[`o:Sass::Tree::CommentNode
+:
+@type:normal:@value["/* All Sections */;[ :
+@linei:@options{ o:Sass::Tree::RuleNode;T:
+@tabsi ;[o:Sass::Tree::PropNode;o:Sass::Script::List	;[	o:Sass::Script::Funcall:@splat0:
+@name"url;i	;@:@keywords{ :
+@args[o:Sass::Script::String	;
+:string;",../images/princeton-university-logo.png;i	;@o;	;
+:identifier;"no-repeat;i	;@o:Sass::Script::Number;i7:@original"50%;i	;@:@denominator_units[ :@numerator_units["%o;;i7;"50%;i	;@;[ ;["%:@separator:
+space;i	;@;i ;[ ;["background;i	;@:@prop_syntax:newo;;o;;
+;;"
+block;@;i ;[ ;["display;i
+;@;!;"o;	
+;
+:silent;["/* height: 40px;  */;[ ;i;@o;;o;;
+;;"-999em;@;i ;[ ;["text-indent;i;@;!;"o;;o;;
+;;"1200px;@;i ;[ ;["min-width;i;@;!;"o;;o;;
+;;"	left;@;i ;[ ;["text-align;i;@;!;";i;@:
+@rule["#branding p>a:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename" :@members[o:Sass::Selector::Sequence;([	o:#Sass::Selector::SimpleSequence
+:@sourceso:Set:
+@hash{ ;'@F:@subject0;([o:Sass::Selector::Id;'@F;["branding;i;io;*
+;+o;,;-{ ;'@F;.0;([o:Sass::Selector::Element	;'@F;["p;i:@namespace0;i">o;*
+;+o;,;-{ ;'@F;.0;([o;0	;'@F;["a;i;10;i;io;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["list-style-type;i;@;!;";i;@;$["ul.menu.clearfix;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@k;.0;([o;0	;'@k;["ul;i;10o:Sass::Selector::Class;'@k;["	menu;io;2;'@k;["clearfix;i;i;io;;T;i ;[o;;o;;
+;;"1em;@;i ;[ ;["margin-bottom;i;@;!;";i;@;$["#main-wrapper;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Ç;.0;([o;/;'@Ç;["main-wrapper;i;i;io;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin-top;i;@;!;";i;@;$["
+#main;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ò;.0;([o;/;'@ò;["	main;i;i;io;;T;i ;[	o;;o;;
+;;"
+white;@;i ;[ ;["border-color;i;@;!;"o;;o;;
+;;"0;@;i ;[ ;["border;i;@;!;"o;;o;;
+;;"0;@;i ;[ ;["padding;i ;@;!;"o;;o;;
+;;"0;@;i ;[ ;["margin;i!;@;!;";i;@;$[".sidebar .block;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@¿;.0;([o;2;'@¿;["sidebar;i;io;*
+;+o;,;-{ ;'@¿;.0;([o;2;'@¿;["
+block;i;i;io;;T;i ;[o;;o;;
+;;"
+black;@;i ;[ ;["
+color;i%;@;!;"o;;o;;
+;;"center;@;i ;[ ;["text-align;i&;@;!;";i$;@;$["~.region-header, .region-header a, .region-header li a.active, #name-and-slogan, #name-and-slogan a, #secondary-menu-links li a;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@„;.0;([o;2;'@„;["region-header;i$;i$o;);([o;*
+;+o;,;-{ ;'@„;.0;([o;2;'@„;["region-header;i$;i$o;*
+;+o;,;-{ ;'@„;.0;([o;0	;'@„;["a;i$;10;i$o;);([o;*
+;+o;,;-{ ;'@„;.0;([o;2;'@„;["region-header;i$;i$o;*
+;+o;,;-{ ;'@„;.0;([o;0	;'@„;["li;i$;10;i$o;*
+;+o;,;-{ ;'@„;.0;([o;0	;'@„;["a;i$;10o;2;'@„;["active;i$;i$o;);([o;*
+;+o;,;-{ ;'@„;.0;([o;/;'@„;["name-and-slogan;i$;i$o;);([o;*
+;+o;,;-{ ;'@„;.0;([o;/;'@„;["name-and-slogan;i$;i$o;*
+;+o;,;-{ ;'@„;.0;([o;0	;'@„;["a;i$;10;i$o;);([o;*
+;+o;,;-{ ;'@„;.0;([o;/;'@„;["secondary-menu-links;i$;i$o;*
+;+o;,;-{ ;'@„;.0;([o;0	;'@„;["li;i$;10;i$o;*
+;+o;,;-{ ;'@„;.0;([o;0	;'@„;["a;i$;10;i$;i$o;;T;i ;[o;;o;;
+;;"1em;@;i ;[ ;["font-size;i*;@;!;"o;;o;;
+;;"500;@;i ;[ ;["font-weight;i+;@;!;";i);@;$["#site-name a;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Y;.0;([o;/;'@Y;["site-name;i);i)o;*
+;+o;,;-{ ;'@Y;.0;([o;0	;'@Y;["a;i);10;i);i)o;;T;i ;[o;;o;;
+;;"
+1.2em;@;i ;[ ;["font-size;i/;@;!;"o;;o;;
+;;"#666666;@;i ;[ ;["
+color;i0;@;!;";i.;@;$["#site-slogan;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@|;.0;([o;/;'@|;["site-slogan;i.;i.;i.o;;T;i ;[o;;o;;
+;;"
+white;@;i ;[ ;["background-color;i4;@;!;";i3;@;$["tr, tr.odd;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@í;.0;([o;0	;'@í;["tr;i3;10;i3o;);([o;*
+;+o;,;-{ ;'@í;.0;([o;0	;'@í;["tr;i3;10o;2;'@í;["odd;i3;i3;i3o;;T;i ;[o;;o;;
+;;"
+right;@;i ;[ ;["
+float;i8;@;!;";i7;@;$[".region-header;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@¥;.0;([o;2;'@¥;["region-header;i7;i7;i7o;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["
+clear;i<;@;!;"o;;o;;
+;;"0 1em 0 1em;@;i ;[ ;["margin;i=;@;!;"o;	
+;
+;;["/* float: left; */;[ ;i>;@;i;;@;$["#footer .block;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@‘;.0;([o;/;'@‘;["footer;i;;i;o;*
+;+o;,;-{ ;'@‘;.0;([o;2;'@‘;["
+block;i;;i;;i;o;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin-left;iA;@;!;";i@;@;$["#block-block-1;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Ò;.0;([o;/;'@Ò;["block-block-1;i@;i@;i@o;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin-top;iE;@;!;";iD;@;$["#footer .region;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;/;'@;["footer;iD;iDo;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["region;iD;iD;iDo;;T;i ;[o;;o;;
+;;"0 30% 0 30%;@;i ;[ ;["margin;iI;@;!;"o;;o;;
+;;"55%;@;i ;[ ;["
+width;iJ;@;!;";iH;@;$["#name-and-slogan;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@*;.0;([o;/;'@*;["name-and-slogan;iH;iH;iHo;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["padding;iN;@;!;";iM;@;$["#footer-wrapper;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@@;.0;([o;/;'@@;["footer-wrapper;iM;iM;iMo;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin-top;iR;@;!;";iQ;@;$["#footer;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@V;.0;([o;/;'@V;["footer;iQ;iQ;iQo;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin-top;iV;@;!;";iU;@;$["#footer .block .content;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@l;.0;([o;/;'@l;["footer;iU;iUo;*
+;+o;,;-{ ;'@l;.0;([o;2;'@l;["
+block;iU;iUo;*
+;+o;,;-{ ;'@l;.0;([o;2;'@l;["content;iU;iU;iUo;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin-bottom;iZ;@;!;";iY;@;$["
+#main;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ê;.0;([o;/;'@ê;["	main;iY;iY;iYo;;T;i ;[	o;;o;;
+;;"inline;@;i ;[ ;["display;i^;@;!;"o;;o;;
+;;"	left;@;i ;[ ;["
+float;i_;@;!;"o;;o;;
+;;"relative;@;i ;[ ;["position;i`;@;!;"o;;o;;
+;;"50%;@;i ;[ ;["
+width;ia;@;!;";i];@;$["2.region-diptych-first, .region-diptych-second;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@∏;.0;([o;2;'@∏;["region-diptych-first;i];i]o;);([o;*
+;+o;,;-{ ;'@∏;.0;([o;2;'@∏;["region-diptych-second;i];i];i]o;;T;i ;[o;;o;;
+;;"1em 0 0 0;@;i ;[ ;["margin;ie;@;!;"o;;o;;
+;;"0;@;i ;[ ;["padding;if;@;!;";id;@;$[".block ol, .block ul;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@›;.0;([o;2;'@›;["
+block;id;ido;*
+;+o;,;-{ ;'@›;.0;([o;0	;'@›;["ol;id;10;ido;);([o;*
+;+o;,;-{ ;'@›;.0;([o;2;'@›;["
+block;id;ido;*
+;+o;,;-{ ;'@›;.0;([o;0	;'@›;["ul;id;10;id;ido;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin;ij;@;!;";ii;@;$["(.field-type-taxonomy-term-reference;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@
+;.0;([o;2;'@
+;["'field-type-taxonomy-term-reference;ii;ii;iio;;T;i ;[o;;o;;
+;;"
+1.8em;@;i ;[ ;["font-size;in;@;!;";im;@;$[".field-name-field-speaker;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ ;.0;([o;2;'@ ;["field-name-field-speaker;im;im;imo;;T;i ;[o;;o;;
+;;"
+1.4em;@;i ;[ ;["font-size;ir;@;!;";iq;@;$["".field-name-field-institution;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@6;.0;([o;2;'@6;["!field-name-field-institution;iq;iq;iqo;;T;i ;[o;;o;;
+;;"nowrap;@;i ;[ ;["white-space;iv;@;!;";iu;@;$["td;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@L;.0;([o;0	;'@L;["td;iu;10;iu;iuo;;T;i ;[o;;o;;
+;;"0 10px 0 10px;@;i ;[ ;["padding;iz;@;!;";iy;@;$["tr td, tr th;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@b;.0;([o;0	;'@b;["tr;iy;10;iyo;*
+;+o;,;-{ ;'@b;.0;([o;0	;'@b;["td;iy;10;iyo;);([o;*
+;+o;,;-{ ;'@b;.0;([o;0	;'@b;["tr;iy;10;iyo;*
+;+o;,;-{ ;'@b;.0;([o;0	;'@b;["th;iy;10;iy;iyo;;T;i ;[o;;o;;
+;;"0.5em 0 0.5em 0;@;i ;[ ;["margin;i~;@;!;";i};@;$["h1, h2, h3, h4, h5, h6;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@è;.0;([o;0	;'@è;["h1;i};10;i}o;);([o;*
+;+o;,;-{ ;'@è;.0;([o;0	;'@è;["h2;i};10;i}o;);([o;*
+;+o;,;-{ ;'@è;.0;([o;0	;'@è;["h3;i};10;i}o;);([o;*
+;+o;,;-{ ;'@è;.0;([o;0	;'@è;["h4;i};10;i}o;);([o;*
+;+o;,;-{ ;'@è;.0;([o;0	;'@è;["h5;i};10;i}o;);([o;*
+;+o;,;-{ ;'@è;.0;([o;0	;'@è;["h6;i};10;i};i}o;	
+;
+;;["/* Home Page */;[ ;i|;@o;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;i;@;!;";i~;@;$[".page-home .tabs;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@÷;.0;([o;2;'@÷;["page-home;i~;i~o;*
+;+o;,;-{ ;'@÷;.0;([o;2;'@÷;["	tabs;i~;i~;i~o;;T;i ;[o;;o;;
+;;"1em;@;i ;[ ;["margin-bottom;iÉ;@;!;";iÇ;@;$["#triptych h2;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Û;.0;([o;/;'@Û;["triptych;iÇ;iÇo;*
+;+o;,;-{ ;'@Û;.0;([o;0	;'@Û;["h2;iÇ;10;iÇ;iÇo;;T;i ;[o;;o;;
+;;"0.5em 0;@;i ;[ ;["margin;iá;@;!;";iÜ;@;$["ul.menu li;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;0	;'@;["ul;iÜ;10o;2;'@;["	menu;iÜ;iÜo;*
+;+o;,;-{ ;'@;.0;([o;0	;'@;["li;iÜ;10;iÜ;iÜo;	
+;
+;;["!/* Home Page - Event List */;[ ;iä;@o;;T;i ;[o;;o;;
+;;"0.25em;@;i ;[ ;["margin-bottom;iç;@;!;";iå;@;$[";.view-display-id-upcoming_conferences .item-list ul li;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@4;.0;([o;2;'@4;[")view-display-id-upcoming_conferences;iå;iåo;*
+;+o;,;-{ ;'@4;.0;([o;2;'@4;["item-list;iå;iåo;*
+;+o;,;-{ ;'@4;.0;([o;0	;'@4;["ul;iå;10;iåo;*
+;+o;,;-{ ;'@4;.0;([o;0	;'@4;["li;iå;10;iå;iåo;	
+;
+;;[" /* Home Page - Main Menu */;[ ;iê;@o;;T;i ;[o;;o;;
+;;"0 0.5em 0 0;@;i ;[ ;["padding;iì;@;!;"o;;o;;
+;;"
+white;@;i ;[ ;["
+color;iî;@;!;"o;;o;;
+;;"
+1.1em;@;i ;[ ;["font-size;iï;@;!;";ií;@;$["4.menu-block-18.menu-name-main-menu ul.menu li a;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@o;.0;([o;2;'@o;["menu-block-18;iío;2;'@o;["menu-name-main-menu;ií;iío;*
+;+o;,;-{ ;'@o;.0;([o;0	;'@o;["ul;ií;10o;2;'@o;["	menu;ií;iío;*
+;+o;,;-{ ;'@o;.0;([o;0	;'@o;["li;ií;10;iío;*
+;+o;,;-{ ;'@o;.0;([o;0	;'@o;["a;ií;10;ií;iío;;T;i ;[o;;o;;0;"rgb;iô;@;{ ;[o;;i…;"201;iô;@;[ ;[ o;;i…;"201;iô;@;@û;[ o;;i…;"201;iô;@;@û;[ ;i ;[ ;["
+color;iô;@;!;";iò;@;$[";.menu-block-18.menu-name-main-menu ul.menu li a.active;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@¨;.0;([o;2;'@¨;["menu-block-18;iòo;2;'@¨;["menu-name-main-menu;iò;iòo;*
+;+o;,;-{ ;'@¨;.0;([o;0	;'@¨;["ul;iò;10o;2;'@¨;["	menu;iò;iòo;*
+;+o;,;-{ ;'@¨;.0;([o;0	;'@¨;["li;iò;10;iòo;*
+;+o;,;-{ ;'@¨;.0;([o;0	;'@¨;["a;iò;10o;2;'@¨;["active;iò;iò;iòo;;T;i ;[o;;o;;
+;;"inline;@;i ;[ ;["display;iù;@;!;"o;;o;;
+;;"middle;@;i ;[ ;["vertical-align;iû;@;!;";iú;@;$["-.menu-block-18.menu-name-main-menu ul li;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Ê;.0;([o;2;'@Ê;["menu-block-18;iúo;2;'@Ê;["menu-name-main-menu;iú;iúo;*
+;+o;,;-{ ;'@Ê;.0;([o;0	;'@Ê;["ul;iú;10;iúo;*
+;+o;,;-{ ;'@Ê;.0;([o;0	;'@Ê;["li;iú;10;iú;iúo;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin;i¢;@;!;"o;;o;;
+;;"0.5em 0 0.5em 0;@;i ;[ ;["padding;i£;@;!;"o;;o;;
+;;"center;@;i ;[ ;["text-align;i§;@;!;";i°;@;$["/.menu-block-18.menu-name-main-menu ul.menu;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["menu-block-18;i°o;2;'@;["menu-name-main-menu;i°;i°o;*
+;+o;,;-{ ;'@;.0;([o;0	;'@;["ul;i°;10o;2;'@;["	menu;i°;i°;i°o;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin;i®;@;!;"o;;o;;
+;;"0;@;i ;[ ;["padding;i©;@;!;";iß;@;$["-.menu-block-18.menu-name-main-menu ul>li;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@B;.0;([o;2;'@B;["menu-block-18;ißo;2;'@B;["menu-name-main-menu;iß;ißo;*
+;+o;,;-{ ;'@B;.0;([o;0	;'@B;["ul;iß;10;iß">o;*
+;+o;,;-{ ;'@B;.0;([o;0	;'@B;["li;iß;10;iß;ißo;;T;i ;[o;;o;;0;"	rgba;i≠;@;{ ;[	o;;iÅ;"129;i≠;@;@û;[ o;;iÇ;"130;i≠;@;@û;[ o;;iÖ;"133;i≠;@;@û;[ o;;i;"1;i≠;@;@û;[ ;i ;[ ;["background-color;i≠;@;!;"o;;o;;
+;;"	100%;@;i ;[ ;["
+width;iÆ;@;!;";i¨;@;$[":.region-headerwell .menu-block-18.menu-name-main-menu;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@~;.0;([o;2;'@~;["region-headerwell;i¨;i¨o;*
+;+o;,;-{ ;'@~;.0;([o;2;'@~;["menu-block-18;i¨o;2;'@~;["menu-name-main-menu;i¨;i¨;i¨o;;T;i ;[o;;o;;
+;;"top;@;i ;[ ;["vertical-align;i≤;@;!;";i±;@;$["(.view-display-id-frontpage_table td;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@û;.0;([o;2;'@û;["$view-display-id-frontpage_table;i±;i±o;*
+;+o;,;-{ ;'@û;.0;([o;0	;'@û;["td;i±;10;i±;i±o;	
+;
+;;["*/* Home Page - Administrative Menu */;[ ;iµ;@o;;T;i ;[o;;o;;
+;;"1px solid #be7;@;i ;[ ;["border;i∏;@;!;";i∑;@;$["#block-menu-block-19;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ø;.0;([o;/;'@ø;["block-menu-block-19;i∑;i∑;i∑o;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;iº;@;!;";iª;@;$["#block-menu-block-19 h2;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@’;.0;([o;/;'@’;["block-menu-block-19;iª;iªo;*
+;+o;,;-{ ;'@’;.0;([o;0	;'@’;["h2;iª;10;iª;iªo;;T;i ;[o;;o;;
+;;"0 0.5em 0 0;@;i ;[ ;["padding;i¿;@;!;"o;;o;;
+;;"	gray;@;i ;[ ;["
+color;i¡;@;!;"o;;o;;
+;;"
+1.1em;@;i ;[ ;["font-size;i¬;@;!;";iø;@;$["5.menu-block-19.menu-name-navigation ul.menu li a;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@˛;.0;([o;2;'@˛;["menu-block-19;iøo;2;'@˛;["menu-name-navigation;iø;iøo;*
+;+o;,;-{ ;'@˛;.0;([o;0	;'@˛;["ul;iø;10o;2;'@˛;["	menu;iø;iøo;*
+;+o;,;-{ ;'@˛;.0;([o;0	;'@˛;["li;iø;10;iøo;*
+;+o;,;-{ ;'@˛;.0;([o;0	;'@˛;["a;iø;10;iø;iøo;;T;i ;[o;;o;;0;"rgb;i∆;@;{ ;[o;;iV;"81;i∆;@;@û;[ o;;i+;"38;i∆;@;@û;[ o;;i;"6;i∆;@;@û;[ ;i ;[ ;["
+color;i∆;@;!;";i≈;@;$["<.menu-block-19.menu-name-navigation ul.menu li a.active;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@:;.0;([o;2;'@:;["menu-block-19;i≈o;2;'@:;["menu-name-navigation;i≈;i≈o;*
+;+o;,;-{ ;'@:;.0;([o;0	;'@:;["ul;i≈;10o;2;'@:;["	menu;i≈;i≈o;*
+;+o;,;-{ ;'@:;.0;([o;0	;'@:;["li;i≈;10;i≈o;*
+;+o;,;-{ ;'@:;.0;([o;0	;'@:;["a;i≈;10o;2;'@:;["active;i≈;i≈;i≈o;;T;i ;[o;;o;;
+;;"inline;@;i ;[ ;["display;i ;@;!;"o;;o;;
+;;"middle;@;i ;[ ;["vertical-align;iÀ;@;!;";i…;@;$["..menu-block-19.menu-name-navigation ul li;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@t;.0;([o;2;'@t;["menu-block-19;i…o;2;'@t;["menu-name-navigation;i…;i…o;*
+;+o;,;-{ ;'@t;.0;([o;0	;'@t;["ul;i…;10;i…o;*
+;+o;,;-{ ;'@t;.0;([o;0	;'@t;["li;i…;10;i…;i…o;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin;iœ;@;!;"o;;o;;
+;;"0.5em 0 0.5em 0;@;i ;[ ;["padding;i–;@;!;"o;;o;;
+;;"center;@;i ;[ ;["text-align;i—;@;!;";iŒ;@;$["0.menu-block-19.menu-name-navigation ul.menu;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ß;.0;([o;2;'@ß;["menu-block-19;iŒo;2;'@ß;["menu-name-navigation;iŒ;iŒo;*
+;+o;,;-{ ;'@ß;.0;([o;0	;'@ß;["ul;iŒ;10o;2;'@ß;["	menu;iŒ;iŒ;iŒo;;T;i ;[o;;o;;
+;;"0;@;i ;[ ;["margin;i’;@;!;"o;;o;;
+;;"0;@;i ;[ ;["padding;i÷;@;!;";i‘;@;$["..menu-block-19.menu-name-navigation ul>li;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@–;.0;([o;2;'@–;["menu-block-19;i‘o;2;'@–;["menu-name-navigation;i‘;i‘o;*
+;+o;,;-{ ;'@–;.0;([o;0	;'@–;["ul;i‘;10;i‘">o;*
+;+o;,;-{ ;'@–;.0;([o;0	;'@–;["li;i‘;10;i‘;i‘o;;T;i ;[o;;o;;0;"rgb;i⁄;@;{ ;[o;;i¯;"248;i⁄;@;@û;[ o;;iˇ;"255;i⁄;@;@û;[ o;;iÒ;"241;i⁄;@;@û;[ ;i ;[ ;["background-color;i⁄;@;!;"o;;o;;
+;;"	100%;@;i ;[ ;["
+width;i€;@;!;";iŸ;@;$[";.region-headerwell .menu-block-19.menu-name-navigation;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@	;.0;([o;2;'@	;["region-headerwell;iŸ;iŸo;*
+;+o;,;-{ ;'@	;.0;([o;2;'@	;["menu-block-19;iŸo;2;'@	;["menu-name-navigation;iŸ;iŸ;iŸo;;T;i ;[o;;o;;
+;;"top;@;i ;[ ;["vertical-align;iﬂ;@;!;";iﬁ;@;$["(.view-display-id-frontpage_table td;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@);.0;([o;2;'@);["$view-display-id-frontpage_table;iﬁ;iﬁo;*
+;+o;,;-{ ;'@);.0;([o;0	;'@);["td;iﬁ;10;iﬁ;iﬁo;	
+;
+;;["/* Home Page - Content */;[ ;i„;@o;;T;i ;[o;;o;;
+;;"	left;@;i ;[ ;["
+float;iÊ;@;!;"o;;o;;
+;;"20%;@;i ;[ ;["
+width;iÁ;@;!;"o;;o;;
+;;"0 1em 1em 0;@;i ;[ ;["margin;iË;@;!;";iÂ;@;$["#carmona-welcome;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@V;.0;([o;/;'@V;["carmona-welcome;iÂ;iÂ;iÂo;	
+;
+;;["/* Home Page - Header */;[ ;iÎ;@o;;T;i ;[o;;o;;
+;;"
+right;@;i ;[ ;["
+float;iÓ;@;!;";iÌ;@;$[".block-search;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@p;.0;([o;2;'@p;["block-search;iÌ;iÌ;iÌo;;T;i ;[o;;o;;
+;;"45%;@;i ;[ ;["max-width;iÚ;@;!;"o;;o;;
+;;"
+350px;@;i ;[ ;["min-width;iÛ;@;!;";iÒ;@;$["
+#logo;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@å;.0;([o;/;'@å;["	logo;iÒ;iÒ;iÒo;	
+;
+;;["/* Home Page - Triptych */;[ ;iˆ;@o;;T;i ;[o;;o;;
+;;"0.25em 0 0.25em 0;@;i ;[ ;["margin;i˘;@;!;";i¯;@;$[".views-row;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@¶;.0;([o;2;'@¶;["views-row;i¯;i¯;i¯o;;T;i ;[o;;o;;
+;;"center;@;i ;[ ;["text-align;i˝;@;!;";i¸;@;$["+.view-research-areas-list .view-header;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@º;.0;([o;2;'@º;["view-research-areas-list;i¸;i¸o;*
+;+o;,;-{ ;'@º;.0;([o;2;'@º;["view-header;i¸;i¸;i¸o;;T;i ;[	o;;o;;
+;;"1em;@;i ;[ ;["margin-bottom;i;@;!;"o;;o;;
+;;"1em;@;i ;[ ;["padding-bottom;i;@;!;"o;;o;;
+;;"1px solid #dfdfdf;@;i ;[ ;["border-bottom;i;@;!;"o;;o;;
+;;"1.3;@;i ;[ ;["line-height;i;@;!;";i ;@;$[".news.home .view-header;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Î;.0;([o;2;'@Î;["	news;i o;2;'@Î;["	home;i ;i o;*
+;+o;,;-{ ;'@Î;.0;([o;2;'@Î;["view-header;i ;i ;i o;	
+;
+;;[" /* Home Page - Spotlight */;[ ;i;@o;;T;i ;[o;;o;;
+;;"
+table;@;i ;[ ;["display;i	;@;!;"o;;o;;
+;;"0 auto;@;i ;[ ;["margin;i
+;@;!;";i;@;$["%.views-slideshow-controls-bottom;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["$views-slideshow-controls-bottom;i;i;io;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["border-bottom;i;@;!;"o;;o;;
+;;"0.75em;@;i ;[ ;["margin-top;i;@;!;";i;@;$["#highlighted;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@1;.0;([o;/;'@1;["highlighted;i;i;io;;T;i ;[o;;T;i ;[
+o;;o;;
+;;"absolute;@;i ;[ ;["position;i;@;!;"o;;o;;0;"	rgba;i;@;{ ;[	o;;iˇ;"255;i;@;@û;[ o;;iˇ;"255;i;@;@û;[ o;;iˇ;"255;i;@;@û;[ o;;f0.70196000000000003 4É;"0.70196;i;@;@û;[ ;i ;[ ;["background-color;i;@;!;"o;;o;;
+;;"200;@;i ;[ ;["z-index;i;@;!;"o;;o;;
+;;"
+1.5em;@;i ;[ ;["font-size;i;@;!;"o;;o;;
+;;"0 1em 0 1em;@;i ;[ ;["padding;i;@;!;";i;@;$[".view-header;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@p;.0;([o;2;'@p;["view-header;i;i;io;;T;i ;[o;;o;;
+;;"absolute;@;i ;[ ;["position;i;@;!;"o;;o;;0;"	rgba;i;@;{ ;[	o;;iˇ;"255;i;@;@û;[ o;;iˇ;"255;i;@;@û;[ o;;iˇ;"255;i;@;@û;[ o;;f0.70196000000000003 4É;"0.70196;i;@;@û;[ ;i ;[ ;["background-color;i;@;!;"o;;o;;
+;;"200;@;i ;[ ;["z-index;i;@;!;"o;;o;;
+;;"
+1.5em;@;i ;[ ;["font-size;i;@;!;"o;;o;;
+;;"-1.7em 1em 0 0;@;i ;[ ;["margin;i;@;!;"o;;o;;
+;;"	100%;@;i ;[ ;["
+width;i ;@;!;";i;@;$[".views-field-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@≥;.0;([o;2;'@≥;["views-field-title;i;i;io;	
+;
+;;[" /* Home Page - Slideshow */;[ ;i#;@o;	
+;
+;#;["/*Respond to mobile. */;[ ;i$;@o:Sass::Tree::MediaNode;T;" :@query["screen"
+ and "(o;	;
+;;"max-width;i&;@": o;;i ;"1024px;i&;@;[ ;["px");i ;[o;;T;i ;[o;;o;;
+;;"1.25em;@;i ;[ ;["font-size;i(;@;!;";i';@;$[".views-field-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@·;.0;([o;2;'@·;["views-field-title;i';i';i';i&;@o;3;T;" ;4["screen"
+ and "(o;	;
+;;"max-width;i,;@": o;;i ;"
+768px;i,;@;[ ;["px");i ;[o;;T;i ;[
+o;;o;;
+;;"
+1.1em;@;i ;[ ;["font-size;i.;@;!;"o;;o;;
+;;"relative;@;i ;[ ;["position;i/;@;!;"o;;o;;
+;;"0 auto;@;i ;[ ;["margin;i0;@;!;"o;;o;;
+;;"0;@;i ;[ ;["z-index;i1;@;!;"o;;o;;
+;;"
+white;@;i ;[ ;["background-color;i2;@;!;";i-;@;$[".views-field-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@	;.0;([o;2;'@	;["views-field-title;i-;i-;i-o;;T;i ;[	o;;o;;
+;;"relative;@;i ;[ ;["position;i5;@;!;"o;;o;;
+;;"
+white;@;i ;[ ;["background-color;i6;@;!;"o;;o;;
+;;"0;@;i ;[ ;["z-index;i7;@;!;"o;;o;;
+;;"1.25em;@;i ;[ ;["font-size;i8;@;!;";i4;@;$[".view-header;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@G	;.0;([o;2;'@G	;["view-header;i4;i4;i4;i,;@;i;@;$["%.view-display-id-spotlight_block;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@U	;.0;([o;2;'@U	;["$view-display-id-spotlight_block;i;i;io;	
+;
+;;["/* Social Media Icons */;[ ;i>;@o;;T;i ;[o;;o;;
+;;"
+right;@;i ;[ ;["
+float;i@;@;!;";i?;@;$["#block-block-19;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@o	;.0;([o;/;'@o	;["block-block-19;i?;i?;i?o;	
+;
+;;["/* People Section */;[ ;iC;@o;;T;i ;[
+o;;o;;
+;;"	left;@;i ;[ ;["
+float;iF;@;!;"o;;o;;
+;;"	none;@;i ;[ ;["list-style;iG;@;!;"o;;o;;
+;;"48%;@;i ;[ ;["
+width;iH;@;!;"o;	
+;
+;;[")/*  padding: 0 0 5% 0 !important; */;[ ;iI;@o;3;T;" ;4["screen"
+ and "(o;	;
+;;"max-width;iL;@": o;;i ;"1024px;iL;@;[ ;["px");i ;[	o;;o;;
+;;"	none;@;i ;[ ;["
+float;iM;@;!;"o;;o;;
+;;"	none;@;i ;[ ;["list-style;iN;@;!;"o;;o;;
+;;"	100%;@;i ;[ ;["
+width;iO;@;!;"o;;o;;
+;;"0 0 5% 0 !important;@;i ;[ ;["padding;iP;@;!;";iL;@;iE;@;$[").faculty-contact-card, .contact-card;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@¡	;.0;([o;2;'@¡	;["faculty-contact-card;iE;iEo;);([o;*
+;+o;,;-{ ;'@¡	;.0;([o;2;'@¡	;["contact-card;iE;iE;iEo;;T;i ;[o;;o;;
+;;"	13em;@;i ;[ ;["min-height;iV;@;!;";iU;@;$[".faculty-contact-card;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@‡	;.0;([o;2;'@‡	;["faculty-contact-card;iU;iU;iUo;;T;i ;[o;;o;;
+;;"	10em;@;i ;[ ;["min-height;iZ;@;!;";iY;@;$[".contact-card;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ˆ	;.0;([o;2;'@ˆ	;["contact-card;iY;iY;iYo;;T;i ;[o;;o;;
+;;"	left;@;i ;[ ;["
+float;i^;@;!;"o;;o;;
+;;"0 0.5em 0 0;@;i ;[ ;["padding;i_;@;!;";i];@;$["7.page-people .item-list ul li .views-field-picture;%o;&;'" ;([o;);([
+o;*
+;+o;,;-{ ;'@
+;.0;([o;2;'@
+;["page-people;i];i]o;*
+;+o;,;-{ ;'@
+;.0;([o;2;'@
+;["item-list;i];i]o;*
+;+o;,;-{ ;'@
+;.0;([o;0	;'@
+;["ul;i];10;i]o;*
+;+o;,;-{ ;'@
+;.0;([o;0	;'@
+;["li;i];10;i]o;*
+;+o;,;-{ ;'@
+;.0;([o;2;'@
+;["views-field-picture;i];i];i]o;;T;i ;[
+o;;o;;
+;;"	none;@;i ;[ ;["
+clear;ic;@;!;"o;;o;;
+;;"	left;@;i ;[ ;["
+float;id;@;!;"o;;o;;
+;;"	none;@;i ;[ ;["list-style-type;ie;@;!;"o;;o;;
+;;"0 0.25em 0 0.25em;@;i ;[ ;["margin;if;@;!;"o;;o;;
+;;"0;@;i ;[ ;["padding;ig;@;!;";ib;@;$["?.view-people.faculty .views-field-field-researchicon ul li;%o;&;'" ;([o;);([	o;*
+;+o;,;-{ ;'@\
+;.0;([o;2;'@\
+;["view-people;ibo;2;'@\
+;["faculty;ib;ibo;*
+;+o;,;-{ ;'@\
+;.0;([o;2;'@\
+;["#views-field-field-researchicon;ib;ibo;*
+;+o;,;-{ ;'@\
+;.0;([o;0	;'@\
+;["ul;ib;10;ibo;*
+;+o;,;-{ ;'@\
+;.0;([o;0	;'@\
+;["li;ib;10;ib;ibo;	
+;
+;;["8/* Atrium - Spotlight, Events, Faculty Slideshow */;[ ;ij;@o;;T;i ;[
+o;;T;i ;[o;;o;;
+;;"1920px;@;i ;[ ;["max-width;io;@;!;";in;@;$["r#header div.section, #featured div.section, #messages div.section, #main, #triptych, #footer-columns, #footer;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["header;in;ino;*
+;+o;,;-{ ;'@ê
+;.0;([o;0	;'@ê
+;["div;in;10o;2;'@ê
+;["section;in;ino;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["featured;in;ino;*
+;+o;,;-{ ;'@ê
+;.0;([o;0	;'@ê
+;["div;in;10o;2;'@ê
+;["section;in;ino;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["messages;in;ino;*
+;+o;,;-{ ;'@ê
+;.0;([o;0	;'@ê
+;["div;in;10o;2;'@ê
+;["section;in;ino;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["	main;in;ino;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["triptych;in;ino;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["footer-columns;in;ino;);([o;*
+;+o;,;-{ ;'@ê
+;.0;([o;/;'@ê
+;["footer;in;in;ino;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;is;@;!;";ir;@;$["#headerwell;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@˙
+;.0;([o;/;'@˙
+;["headerwell;ir;ir;iro;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;iv;@;!;";iu;@;$["#messages;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;/;'@;["messages;iu;iu;iuo;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;iy;@;!;";ix;@;$["#footer-wrapper;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@&;.0;([o;/;'@&;["footer-wrapper;ix;ix;ixo;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;i|;@;!;";i{;@;$["#search-block-form;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@<;.0;([o;/;'@<;["search-block-form;i{;i{;i{;il;@;$["P.page-atrium-spotlight, .page-events-atrium, .page-people-faculty-slideshow;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@J;.0;([o;2;'@J;["page-atrium-spotlight;il;ilo;);([o;*
+;+o;,;-{ ;'@J;.0;([o;2;'@J;["page-events-atrium;il;ilo;);([o;*
+;+o;,;-{ ;'@J;.0;([o;2;'@J;[""page-people-faculty-slideshow;il;il;ilo;	
+;
+;;["/* Atrium - Events */;[ ;iÅ;@o;;T;i ;[o;;o;;
+;;"
+1.3em;@;i ;[ ;["font-size;iÑ;@;!;";iÉ;@;$[".page-events-atrium;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@v;.0;([o;2;'@v;["page-events-atrium;iÉ;iÉ;iÉo;	
+;
+;;["/* Atrium - Spotlight */;[ ;iá;@o;;T;i ;[o;;T;i ;[o;;o;;
+;;"absolute;@;i ;[ ;["position;iã;@;!;"o;;o;;
+;;"#0090e4;@;i ;[ ;["
+color;iå;@;!;"o;;o;;0;"	rgba;iç;@;{ ;[	o;;iˇ;"255;iç;@;@û;[ o;;iˇ;"255;iç;@;@û;[ o;;iˇ;"255;iç;@;@û;[ o;;f0.70196000000000003 4É;"0.70196;iç;@;@û;[ ;i ;[ ;["background-color;iç;@;!;"o;;o;;
+;;"200;@;i ;[ ;["z-index;ié;@;!;"o;;o;;
+;;"1.75em;@;i ;[ ;["font-size;iè;@;!;"o;;o;;
+;;"1em;@;i ;[ ;["padding;iê;@;!;";iä;@;$["h1#page-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ø;.0;([o;0	;'@ø;["h1;iä;10o;/;'@ø;["page-title;iä;iä;iäo;;T;i ;[o;;o;;
+;;"absolute;@;i ;[ ;["position;iì;@;!;"o;;o;;0;"	rgba;iî;@;{ ;[	o;;iˇ;"255;iî;@;@û;[ o;;iˇ;"255;iî;@;@û;[ o;;iˇ;"255;iî;@;@û;[ o;;f0.70196000000000003 4É;"0.70196;iî;@;@û;[ ;i ;[ ;["background-color;iî;@;!;"o;;o;;
+;;"#0090e4;@;i ;[ ;["
+color;iï;@;!;"o;;o;;
+;;"200;@;i ;[ ;["z-index;iñ;@;!;"o;;o;;
+;;"1.75em;@;i ;[ ;["font-size;ió;@;!;"o;;o;;
+;;"-1.7em 1em 0 0;@;i ;[ ;["margin;iò;@;!;"o;;o;;
+;;"	100%;@;i ;[ ;["
+width;iô;@;!;";ií;@;$["#.views-field.views-field-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["views-field;iío;2;'@;["views-field-title;ií;ií;ií;iâ;@;$[".page-atrium-spotlight;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["page-atrium-spotlight;iâ;iâ;iâo;	
+;
+;;["%/* Atrium - Faculty Slideshow */;[ ;iù;@o;;T;i ;[o;;T;i ;[o;;o;;
+;;"absolute;@;i ;[ ;["position;i¢;@;!;"o;;o;;
+;;"#0090e4;@;i ;[ ;["
+color;i£;@;!;"o;;o;;0;"	rgba;i§;@;{ ;[	o;;iˇ;"255;i§;@;@û;[ o;;iˇ;"255;i§;@;@û;[ o;;iˇ;"255;i§;@;@û;[ o;;f0.70196000000000003 4É;"0.70196;i§;@;@û;[ ;i ;[ ;["background-color;i§;@;!;"o;;o;;
+;;"200;@;i ;[ ;["z-index;i•;@;!;"o;;o;;
+;;"1.75em;@;i ;[ ;["font-size;i¶;@;!;"o;;o;;
+;;"
+0.5em;@;i ;[ ;["padding;iß;@;!;";i°;@;$["h1#page-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@e;.0;([o;0	;'@e;["h1;i°;10o;/;'@e;["page-title;i°;i°;i°o;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["display;i´;@;!;";i™;@;$["#header;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@~;.0;([o;/;'@~;["header;i™;i™;i™o;;T;i ;[o;;o;;
+;;"#161617;@;i ;[ ;["background;iØ;@;!;"o;;o;;
+;;"0;@;i ;[ ;["margin-bottom;i∞;@;!;";iÆ;@;$["#main-wrapper;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ö;.0;([o;/;'@ö;["main-wrapper;iÆ;iÆ;iÆo;	
+;
+;;["/* Fix this mess. */;[ ;i≥;@o;;T;i ;[
+o;;o;;
+;;"visible;@;i ;[ ;["overflow;iµ;@;!;"o;;o;;
+;;"
+white;@;i ;[ ;["background;i∂;@;!;"o;;o;;
+;;"	gray;@;i ;[ ;["
+color;i∑;@;!;"o;;o;;
+;;"center;@;i ;[ ;["text-align;i∏;@;!;"o;;o;;
+;;"800px !important;@;i ;[ ;["
+width;iπ;@;!;";i¥;@;$["rdiv#views_slideshow_cycle_div_people-page_1_4.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-5.views_slideshow_cycle_hidden.views-row-odd, div#views_slideshow_cycle_div_people-page_1_3.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-4.views_slideshow_cycle_hidden.views-row-even, div#views_slideshow_cycle_div_people-page_1_2.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-3.views_slideshow_cycle_hidden.views-row-odd, div#views_slideshow_cycle_teaser_section_people-page_1.views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section, div#views_slideshow_cycle_div_people-page_1_1.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views-row-2.views_slideshow_cycle_hidden.views-row-even;%o;&;'" ;([
+o;);([o;*
+;+o;,;-{ ;'@Ã;.0;([o;0	;'@Ã;["div;i¥;10o;/;'@Ã;[".views_slideshow_cycle_div_people-page_1_4;i¥o;2;'@Ã;[")views-slideshow-cycle-main-frame-row;i¥o;2;'@Ã;[" views_slideshow_cycle_slide;i¥o;2;'@Ã;["views_slideshow_slide;i¥o;2;'@Ã;["views-row-5;i¥o;2;'@Ã;["!views_slideshow_cycle_hidden;i¥o;2;'@Ã;["views-row-odd;i¥;i¥o;);([o;*
+;+o;,;-{ ;'@Ã;.0;([o;0	;'@Ã;["div;i¥;10o;/;'@Ã;[".views_slideshow_cycle_div_people-page_1_3;i¥o;2;'@Ã;[")views-slideshow-cycle-main-frame-row;i¥o;2;'@Ã;[" views_slideshow_cycle_slide;i¥o;2;'@Ã;["views_slideshow_slide;i¥o;2;'@Ã;["views-row-4;i¥o;2;'@Ã;["!views_slideshow_cycle_hidden;i¥o;2;'@Ã;["views-row-even;i¥;i¥o;);([o;*
+;+o;,;-{ ;'@Ã;.0;([o;0	;'@Ã;["div;i¥;10o;/;'@Ã;[".views_slideshow_cycle_div_people-page_1_2;i¥o;2;'@Ã;[")views-slideshow-cycle-main-frame-row;i¥o;2;'@Ã;[" views_slideshow_cycle_slide;i¥o;2;'@Ã;["views_slideshow_slide;i¥o;2;'@Ã;["views-row-3;i¥o;2;'@Ã;["!views_slideshow_cycle_hidden;i¥o;2;'@Ã;["views-row-odd;i¥;i¥o;);([o;*
+;+o;,;-{ ;'@Ã;.0;([	o;0	;'@Ã;["div;i¥;10o;/;'@Ã;["7views_slideshow_cycle_teaser_section_people-page_1;i¥o;2;'@Ã;["%views-slideshow-cycle-main-frame;i¥o;2;'@Ã;[")views_slideshow_cycle_teaser_section;i¥;i¥o;);([o;*
+;+o;,;-{ ;'@Ã;.0;([o;0	;'@Ã;["div;i¥;10o;/;'@Ã;[".views_slideshow_cycle_div_people-page_1_1;i¥o;2;'@Ã;[")views-slideshow-cycle-main-frame-row;i¥o;2;'@Ã;[" views_slideshow_cycle_slide;i¥o;2;'@Ã;["views_slideshow_slide;i¥o;2;'@Ã;["views-row-2;i¥o;2;'@Ã;["!views_slideshow_cycle_hidden;i¥o;2;'@Ã;["views-row-even;i¥;i¥;i¥o;;T;i ;[o;;o;;
+;;"	left;@;i ;[ ;["
+float;iΩ;@;!;"o;;o;;
+;;"
+0.1em;@;i ;[ ;["padding;iæ;@;!;";iº;@;$["/.views-slideshow-cycle-main-frame-row-item;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@i;.0;([o;2;'@i;[".views-slideshow-cycle-main-frame-row-item;iº;iº;iºo;;T;i ;[o;;o;;
+;;"
+245px;@;i ;[ ;["
+width;i¬;@;!;"o;;o;;
+;;"
+500px;@;i ;[ ;["height;i√;@;!;";i¡;@;$[".views-row;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Ö;.0;([o;2;'@Ö;["views-row;i¡;i¡;i¡;iü;@;$["#.page-people-faculty-slideshow;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ì;.0;([o;2;'@ì;[""page-people-faculty-slideshow;iü;iü;iüo;	
+;
+;;["/* Event Page */;[ ;i»;@o;;T;i ;[o;;o;;
+;;"1em;@;i ;[ ;["margin-bottom;iÀ;@;!;";i ;@;$["ul.event>li;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@≠;.0;([o;0	;'@≠;["ul;i ;10o;2;'@≠;["
+event;i ;i ">o;*
+;+o;,;-{ ;'@≠;.0;([o;0	;'@≠;["li;i ;10;i ;i o;	
+;
+;;["/* Advisory Council */;[ ;iŒ;@o;;T;i ;[o;;o;;
+;;"2em 0 1em 0;@;i ;[ ;["margin;i—;@;!;";i–;@;$["&.view-advisory-council .views-row;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@“;.0;([o;2;'@“;["view-advisory-council;i–;i–o;*
+;+o;,;-{ ;'@“;.0;([o;2;'@“;["views-row;i–;i–;i–o;;T;i ;[o;;o;;
+;;"0.25em;@;i ;[ ;["padding;i’;@;!;";i‘;@;$["#.advisory-council-member-photo;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@Ô;.0;([o;2;'@Ô;[""advisory-council-member-photo;i‘;i‘;i‘o;	
+;
+;;["$/* Academics - Academic Jobs */;[ ;iÿ;@o;;T;i ;[o;;o;;
+;;"2em 0 2em 0;@;i ;[ ;["margin;i⁄;@;!;"o;;o;;
+;;"0 0 2em 0;@;i ;[ ;["padding;i€;@;!;"o;;o;;
+;;"1px solid gray;@;i ;[ ;["border-bottom;i‹;@;!;";iŸ;@;$["j.view-display-id-academic_jobs_page .views-row, .page-about-employment .view-id-employment .views-row;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["'view-display-id-academic_jobs_page;iŸ;iŸo;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["views-row;iŸ;iŸo;);([o;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["page-about-employment;iŸ;iŸo;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["view-id-employment;iŸ;iŸo;*
+;+o;,;-{ ;'@;.0;([o;2;'@;["views-row;iŸ;iŸ;iŸo;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["text-decoration;iﬁ;@;!;"o;;o;;
+;;"0 0 1em 0;@;i ;[ ;["margin;iﬂ;@;!;";i›;@;$["z.view-display-id-academic_jobs_page .views-field-title, .page-about-employment .view-id-employment .views-field-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@O;.0;([o;2;'@O;["'view-display-id-academic_jobs_page;i›;i›o;*
+;+o;,;-{ ;'@O;.0;([o;2;'@O;["views-field-title;i›;i›o;);([o;*
+;+o;,;-{ ;'@O;.0;([o;2;'@O;["page-about-employment;i›;i›o;*
+;+o;,;-{ ;'@O;.0;([o;2;'@O;["view-id-employment;i›;i›o;*
+;+o;,;-{ ;'@O;.0;([o;2;'@O;["views-field-title;i›;i›;i›o;;T;i ;[o;;o;;
+;;"
+1.2em;@;i ;[ ;["font-size;i·;@;!;";i‡;@;$["(.view-employment .views-field-title;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@É;.0;([o;2;'@É;["view-employment;i‡;i‡o;*
+;+o;,;-{ ;'@É;.0;([o;2;'@É;["views-field-title;i‡;i‡;i‡o;	
+;
+;;["$/* Academics - Job Placement */;[ ;i„;@o;;T;i ;[o;;T;i ;[o;;o;;
+;;"	none;@;i ;[ ;["list-style-type;iÁ;@;!;";iÊ;@;$["
+ul li;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@¶;.0;([o;0	;'@¶;["ul;iÊ;10;iÊo;*
+;+o;,;-{ ;'@¶;.0;([o;0	;'@¶;["li;iÊ;10;iÊ;iÊo;;T;i ;[o;;o;;
+;;"	25px;@;i ;[ ;["margin-bottom;iÍ;@;!;";iÈ;@;$[".item-list ul li;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@√;.0;([o;2;'@√;["item-list;iÈ;iÈo;*
+;+o;,;-{ ;'@√;.0;([o;0	;'@√;["ul;iÈ;10;iÈo;*
+;+o;,;-{ ;'@√;.0;([o;0	;'@√;["li;iÈ;10;iÈ;iÈ;iÂ;@;$[".view-graduate-employment;%o;&;'" ;([o;);([o;*
+;+o;,;-{ ;'@ﬂ;.0;([o;2;'@ﬂ;["view-graduate-employment;iÂ;iÂ;iÂ;i;@

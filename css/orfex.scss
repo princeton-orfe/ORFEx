@@ -1,0 +1,799 @@
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+$orfe-font: 'Noto Sans', sans-serif;
+$breakpoint: 860px;
+$default_link_color: #004d79;
+$default_link_color_active: #23aeff;
+$default_link_color_focus: #018fe2;
+
+
+// Elements
+
+h1, h1#page-title {
+font-size: 1.75em;
+margin: 0.75em 0 0.75em 0em;
+text-align: left;
+@media screen and (max-width: $breakpoint) {
+text-align: center;
+}
+}
+
+/* Provide a margin when there is a text header as the first main content element. */
+a#main-content + h1.title {
+@media screen and (min-width: $breakpoint) {
+}
+}
+
+h2 { 
+font-size: 1.5em;
+} 
+
+h3 { 
+font-size: 1.25em;
+} 
+
+h4 { 
+font-style: italic;
+} 
+
+body {
+	font-family: $orfe-font;
+	font-size: 1em;
+	background: white;
+}
+
+ul, ol { 
+margin: 0 0 0 2em;
+}
+
+table {
+margin: 0;
+font-family: inherit;
+font-size: 1em;
+}
+
+caption {
+margin: 1em 0 0.5em 0;
+font-weight: bold;
+}
+
+tr, tr.odd {
+background-color: white;
+}
+
+p + p {
+margin-top: 1em;
+}
+
+tr td, tr th {
+padding: 0.25em;
+}
+
+td {
+white-space: normal;
+}
+
+p + h2, ul + p, p + h3 {
+margin-top: 1em;
+}
+
+input, textarea, select, a {
+font-family: inherit;
+}
+
+label {
+margin-bottom: 0.25em;
+}
+
+fieldset legend {
+font-family: inherit;
+text-shadow: none;
+color: inherit;
+font-weight: bold;
+}
+
+a {
+color: $default_link_color;
+}
+
+ul + h2, ul + h3, h2 + h3, h3 + p, div + h3 {
+margin-top: 1em;
+}
+
+/* Paragraph followed by h1 */
+p+h1, p+ul, ol+h2, p+h4, li+ol, ul+h1, p+h1, ol+p {
+margin-top: 1em;
+}
+
+// End Elements
+
+// Begin Classes
+
+
+.primary.menu {
+background-color: #525355;
+}
+
+.secondary.menu {
+background-color: #818285;
+}
+
+.admin.menu {
+background-color: black;
+}
+
+.menu { /* Begin #block-main-menu-block within #headerwell */
+
+width: 100%;
+
+a {
+padding: 0 1em 0 0;
+color: #ffffff;
+font-size: 1em;
+white-space: nowrap;
+line-height: 1em;
+}
+
+a.active {
+color: rgb(201, 201, 201);
+}
+a.active-trail {
+color: #c9c9c9;
+}
+
+ul li {
+display: inline;
+vertical-align: middle;
+margin: 0 0.25em 0 0.25em;
+}
+
+ul {
+margin: 0;
+padding: 0.5em 0 0.5em 0;
+text-align: center;
+}
+
+ul>li {
+}
+
+}
+
+.copyright {
+font-size: 0.75em;
+}
+
+.contact-card {
+        width: 46%;
+}
+
+.photo-card-row {
+@media screen and (min-width: $breakpoint) {
+display: flex;
+}
+justify-content: center;
+list-style-type: none;
+text-align: center;
+}
+
+.photo-card {
+        width: 100%;
+        padding: 10px;
+        text-align:center;
+.caption {
+        text-align: center;
+}
+}
+
+.contact-card, .photo-card { /* Begin contact-card */
+  float: left;
+  list-style: none;
+
+@media screen and (max-width: $breakpoint) {
+float: none;
+list-style: none;
+width: 100%;
+padding: 0 0 5% 0 !important;
+}
+
+@media screen and (max-width: $breakpoint) {
+padding: 0 0 5% 0 !important;
+}
+} /* End contact-card */
+
+.contact-card, .photo-card {
+min-height: 17.75em;
+margin-bottom: 1em;
+}
+
+.item-list ul li .views-field-picture {
+  float: left;
+  padding: 0 1em 0 0;
+}
+
+@media screen and (max-width: $breakpoint) {
+.block ul {
+padding: 0;
+}
+.item-list ul li {
+margin: 0;
+}
+}
+
+.no-sidebars #content {
+	width: auto;
+}
+
+.postponed {
+font-weight: 700;
+color: red;
+}
+
+.region-content ul, .region-content ol {
+	margin: 0 0 0 1.5em;
+}
+
+.view-graduate-spotlight {
+	.views-field-body {
+	margin: 1em 0 1em 0;
+	}
+}
+
+.views-row.news-story-row {
+margin-top: 2em;
+}
+
+.file-size {
+display: none;
+}
+
+.rate-info, .rate-description {
+font-size: inherit;
+color: inherit;
+}
+
+.photo-cards {
+position: relative;
+overflow: auto;
+}
+
+.capitalize {
+text-transform: capitalize;
+}
+
+
+.featured #messages {
+background: white;
+}
+
+.section, .region, .block .content {
+padding: 0;
+margin-top: 0;
+}
+
+.tabs {
+font-family: inherit;
+margin-bottom: 1em;
+}
+
+.container-inline-date > .form-item {
+margin-right: 0;
+}
+
+.meta.submitted, .views-field-created, .views-field-field-advertised-positions {
+color: gray;
+font-style: italic;
+}
+
+ul.menu li, .menu, ul.event {
+}
+
+.item-list ul.event li {
+margin: 1em 0 1em 0;
+}
+
+.menu, .event {
+list-style-type: none;
+
+ul li a, .item-list ul li {
+padding: 0;
+}
+
+ul li>ul li {
+margin: 0;
+}
+}
+
+.sidebar {
+.block {
+border: none;
+padding: 0;
+margin: 0;
+.content {
+font-size: 1em;
+}
+}
+}
+
+.item-list ul li {
+margin: 0 0 0 1em;
+}
+
+.node .content, .form-select {
+font-size: inherit;
+}
+
+.logged-in .tabs {
+margin-bottom: 1em;
+}
+
+.form-item { /* Begin .form-item */
+margin: 1.5em 0 1.5em 0
+label {
+font-size: inherit;
+}
+} /* End .form-item */
+
+
+.view-advisory-council .views-row {
+margin: 2em 0 1em 0;
+}
+
+.placeholder_photo {
+max-width: 150px;
+}
+
+.advisory-council-member-photo {
+padding: 1em 1em 0 0;
+float: left;
+}
+
+.advisory-council-member-name {
+font-size: 1.25em;
+font-family: Verdana, sans-serif;
+/* Inserted Verdana to fix apostrophe render */
+}
+
+.advisory-council-member-title {
+color: #68696b;
+font-size: 1em;
+font-style: italic;
+margin-bottom: 1em;
+}
+
+.field-name-field-speaker {
+        font-size: 1.8em;
+}
+
+.field-name-field-institution {
+        font-size: 1.4em;
+        margin-bottom: 1em;
+}
+
+.views-row {
+margin: 1em 0 1em 0;
+}
+
+.webform-client-form {
+margin: 1em 0 0 0;
+}
+
+.fieldset-wrapper {
+margin-top: 2em;
+.form-item {
+margin: 0.25em 0 0.25em 0;
+}
+}
+
+.field-name-field-related-url {
+margin: 1em 0 1em 0;
+}
+
+
+// End Classes
+
+// Begin IDs
+
+#content {
+}
+
+#page-wrapper { 
+min-width: 370px;
+background: black;
+}
+
+#branding { /* Begin #branding */
+
+margin: 0 1em 0 1em;
+
+p {
+margin: 0;
+}
+
+@media screen and (min-width: $breakpoint) {
+max-height: 56px;
+}
+
+p>a {
+background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+background-size: 296.66667px 24.66667px;
+display: block;
+text-indent: -999em;
+min-width: 300px;
+text-align: left;
+padding: 1em 0 1em 0;
+}
+
+
+#block-princeton-university-logo {
+float: left;
+
+@media screen and (max-width: $breakpoint) {
+float: none;
+}
+}
+
+#block-search { /* Begin #block-search within #branding */
+
+float: right;
+margin-bottom: 0;
+padding-bottom: 0;
+padding-top: 0.5em;
+
+input.form-text {
+width: 300px;
+}
+
+@media screen and (max-width: $breakpoint) {
+float: none;
+width:100%;
+text-align:center;
+input.form-text {
+width: 80%;
+}
+
+.container-inline .form-actions {
+margin-left: 0.5em;
+}
+
+}
+
+} /* End #block-search within #branding */
+
+} /* End #branding */
+
+
+
+#header { /* Begin #header */
+padding: 1em;
+background-color: white;
+@media screen and (min-width: $breakpoint) {
+background-image: none;
+}
+
+@media screen and (max-width: $breakpoint) {
+	background-image: url(/sites/all/themes/ORFEx/images/logo-narrow.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 60px;
+}
+
+#logo { /* Begin #logo within #header */
+
+line-height: 0.5em;
+
+@media screen and (min-width: $breakpoint) {
+	max-width: 45%;
+	min-width: 350px;
+	padding: 0;
+}
+
+@media screen and (max-width: $breakpoint) {
+	img {
+	display:none;
+	}
+}
+
+} /* End #logo within #header */
+} /* End #header */
+
+
+#headerwell { /* Begin #headerwell */
+
+
+} /* End #headerwell */
+
+#featured {
+
+border-bottom: none;
+text-align: center;
+font-weight: normal;
+
+@media screen and (max-width: $breakpoint) {
+	font-size: 1em;
+	.views-field-title {
+	padding: 0.5em 0 0.5em 0;
+	}
+}
+
+.block ul, .block ol {
+padding: 0;
+}
+
+@media screen and (min-width: $breakpoint) {
+.views-field-title {
+padding: 1em 0 1em 0;
+}
+}
+
+.flexslider {
+margin: 0;
+border: none;
+}
+
+.flex-control-nav {
+position: unset;
+}
+
+.region-featured { /* Begin .region-featured within #featured. */
+max-width: 1280px;
+margin: 0 auto;
+
+} /* End .region-featured within #featured. */
+
+text-align: center;
+padding: 0;
+background: none;
+border-bottom: none;
+text-shadow: none;
+font-size: 1.2em;
+
+div.section { /* Begin div.section within #featured */
+max-width: initial;
+width: initial;
+margin: initial;
+}
+
+} /* End #featured */
+
+
+
+#main-wrapper { /* Begin #main-wrapper */
+
+.menu a {
+color: inherit;
+}
+
+margin: 0 1em 0 1em;
+#main { /* Begin #main */
+
+margin: auto;
+
+@media screen and (max-width: $breakpoint) {
+margin: 0;
+}
+
+#content { /* Begin #content */
+
+float: none;
+
+@media screen and (min-width: $breakpoint) {
+float: none;
+}
+
+.region-preface { /* Begin .region-preface within #content */
+#block-bulletins-view-block { /* Begin #block-bulletins-view-block within .region-preface. */
+display: flex;
+background-color: #fffaf0;
+padding: 0.5em;
+margin-bottom: 1.5em;
+border: 4px solid #ed8936;
+} /* End #block-bulletins-view-block within .region-preface. */
+} /* End .region-preface within #content. */
+
+.section {
+padding: 0;
+}
+
+#advisory-council-section-for-prospective-students-page {
+margin-bottom: 1em;
+text-align: center;
+}
+
+#block-photos-for-undergraduate-page-student-placement, #block-photos-for-undergraduate-prospective-students-page, #block-photos-for-undergraduate-student-placement {
+ul {
+}
+li {
+margin: 1em;
+}
+}
+
+} /* End #content */
+
+/* Begin diptych addition */
+.region-diptych-first, .region-diptych-second {
+	float: left;
+	width: 50%;
+}
+
+#diptych {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.region-diptych-first,
+.region-diptych-second {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px 0;
+}
+
+@media all and (min-width: 560px) and (max-width: $breakpoint) {
+  .region-diptych-first,
+  .region-diptych-second {
+    display: inline;
+    float: left; /* LTR */
+    position: relative;
+  }
+}
+
+@media all and (min-width: $breakpoint) {
+	#diptych {
+    max-width: 1140px;
+}
+  .region-diptych-first,
+  .region-diptych-second
+  {
+    display: inline;
+    float: left; /* LTR */
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
+
+/* End diptych addition */
+
+} /* End #main */
+
+} /* End #main-wrapper */
+
+#triptych-wrapper { /* Begin #triptych-wrapper */
+
+margin-bottom: -15px; /*Corrects for margin on every other page. */
+border-top: none;
+
+a {
+	color: $default_link_color;
+}
+
+a:active {
+	color: $default_link_color_active;
+}
+
+a:hover, a:focus {
+	color: $default_link_color_focus;
+}
+
+ul.menu li {
+margin: 0;
+}
+
+#triptych { /* Begin #triptych within #triptych-wrapper */
+
+.block {
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+padding: 1em 0 0 0;
+
+.view-display-id-all_upcoming_events_block {
+li {
+margin-bottom: 1em;
+}
+}
+background-color: #f0f0f0;
+
+.block, .menu, .content {
+text-align: center;
+line-height: 1.5em;
+border-bottom: none;
+}
+
+h2 {
+margin: 0 0 1em 0;
+}
+
+} /* End #triptych within #triptych-wrapper */
+} /* End #triptych-wrapper */
+
+#footer-wrapper { /* Begin #footer-wrapper */
+background: black;
+color: #fcfcfc;
+font-family: inherit;
+font-size: inherit;
+margin-top: 1em;
+padding:0;
+
+.block {
+margin: 0;
+padding: 0;
+@media screen and (max-width: $breakpoint) {
+text-align: center;
+}
+}
+
+#footer-columns { /* Begin #footer-columns */
+
+max-width: none;
+
+p {
+padding: 0;
+margin: 0;
+line-height: 0;
+}
+
+.block {
+border: none;
+}
+
+.region-footer-fourthcolumn {
+	float: right;
+@media screen and (max-width: $breakpoint) {
+	float: none;
+}
+}
+
+} 
+
+#block-facebook-logo { /* Begin #block-facebook-logo within #footer-columns */
+max-width: 50px;
+float: right;
+margin: 0 1em 0 0;
+
+@media screen and (max-width: $breakpoint) {
+float: none;
+margin: auto;
+}
+
+} /* End #block-facebook-logo within #footer-columns */
+} /* End #footer-columns */
+
+#footer-wrapper {
+
+.section {
+padding:0;
+}
+
+#footer { /* Begin #footer within #footer-wrapper */
+
+
+max-width: none;
+margin: 0 1em 0 1em;
+border-top: none;
+.block {
+clear: none;
+}
+
+.region, .content {
+margin: 0 0 0 0;
+}
+
+#block-user-menu-block { /* Begin #block-user-menu-block within #footer, #footer-wrapper */
+        color: gray;
+} /* End #block-user-menu-block within #footer, #footer-wrapper */
+
+
+#engineeringsignature { /* Begin #engineeringsignature within #footer-wrapper */
+width: 20%;
+max-width: 70%;
+min-width: 225px;
+margin-left: -20px;
+}
+
+}
+
+} /* End #footer-wrapper */

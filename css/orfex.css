@@ -1,0 +1,728 @@
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+h1, h1#page-title {
+  font-size: 1.75em;
+  margin: 0.75em 0 0.75em 0em;
+  text-align: left;
+}
+@media screen and (max-width: 860px) {
+  h1, h1#page-title {
+    text-align: center;
+  }
+}
+
+/* Provide a margin when there is a text header as the first main content element. */
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-style: italic;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  background: white;
+}
+
+ul, ol {
+  margin: 0 0 0 2em;
+}
+
+table {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+caption {
+  margin: 1em 0 0.5em 0;
+  font-weight: bold;
+}
+
+tr, tr.odd {
+  background-color: white;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+tr td, tr th {
+  padding: 0.25em;
+}
+
+td {
+  white-space: normal;
+}
+
+p + h2, ul + p, p + h3 {
+  margin-top: 1em;
+}
+
+input, textarea, select, a {
+  font-family: inherit;
+}
+
+label {
+  margin-bottom: 0.25em;
+}
+
+fieldset legend {
+  font-family: inherit;
+  text-shadow: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+a {
+  color: #004d79;
+}
+
+ul + h2, ul + h3, h2 + h3, h3 + p, div + h3 {
+  margin-top: 1em;
+}
+
+/* Paragraph followed by h1 */
+p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
+  margin-top: 1em;
+}
+
+.primary.menu {
+  background-color: #525355;
+}
+
+.secondary.menu {
+  background-color: #818285;
+}
+
+.admin.menu {
+  background-color: black;
+}
+
+.menu {
+  /* Begin #block-main-menu-block within #headerwell */
+  width: 100%;
+}
+.menu a {
+  padding: 0 1em 0 0;
+  color: #ffffff;
+  font-size: 1em;
+  white-space: nowrap;
+  line-height: 1em;
+}
+.menu a.active {
+  color: #c9c9c9;
+}
+.menu a.active-trail {
+  color: #c9c9c9;
+}
+.menu ul li {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 0.25em 0 0.25em;
+}
+.menu ul {
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+.copyright {
+  font-size: 0.75em;
+}
+
+.contact-card {
+  width: 46%;
+}
+
+.photo-card-row {
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+}
+@media screen and (min-width: 860px) {
+  .photo-card-row {
+    display: flex;
+  }
+}
+
+.photo-card {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.photo-card .caption {
+  text-align: center;
+}
+
+.contact-card, .photo-card {
+  /* Begin contact-card */
+  float: left;
+  list-style: none;
+}
+@media screen and (max-width: 860px) {
+  .contact-card, .photo-card {
+    float: none;
+    list-style: none;
+    width: 100%;
+    padding: 0 0 5% 0 !important;
+  }
+}
+@media screen and (max-width: 860px) {
+  .contact-card, .photo-card {
+    padding: 0 0 5% 0 !important;
+  }
+}
+
+/* End contact-card */
+.contact-card, .photo-card {
+  min-height: 17.75em;
+  margin-bottom: 1em;
+}
+
+.item-list ul li .views-field-picture {
+  float: left;
+  padding: 0 1em 0 0;
+}
+
+@media screen and (max-width: 860px) {
+  .block ul {
+    padding: 0;
+  }
+
+  .item-list ul li {
+    margin: 0;
+  }
+}
+.no-sidebars #content {
+  width: auto;
+}
+
+.postponed {
+  font-weight: 700;
+  color: red;
+}
+
+.region-content ul, .region-content ol {
+  margin: 0 0 0 1.5em;
+}
+
+.view-graduate-spotlight .views-field-body {
+  margin: 1em 0 1em 0;
+}
+
+.views-row.news-story-row {
+  margin-top: 2em;
+}
+
+.file-size {
+  display: none;
+}
+
+.rate-info, .rate-description {
+  font-size: inherit;
+  color: inherit;
+}
+
+.photo-cards {
+  position: relative;
+  overflow: auto;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.featured #messages {
+  background: white;
+}
+
+.section, .region, .block .content {
+  padding: 0;
+  margin-top: 0;
+}
+
+.tabs {
+  font-family: inherit;
+  margin-bottom: 1em;
+}
+
+.container-inline-date > .form-item {
+  margin-right: 0;
+}
+
+.meta.submitted, .views-field-created, .views-field-field-advertised-positions {
+  color: gray;
+  font-style: italic;
+}
+
+.item-list ul.event li {
+  margin: 1em 0 1em 0;
+}
+
+.menu, .event {
+  list-style-type: none;
+}
+.menu ul li a, .menu .item-list ul li, .event ul li a, .event .item-list ul li {
+  padding: 0;
+}
+.menu ul li > ul li, .event ul li > ul li {
+  margin: 0;
+}
+
+.sidebar .block {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar .block .content {
+  font-size: 1em;
+}
+
+.item-list ul li {
+  margin: 0 0 0 1em;
+}
+
+.node .content, .form-select {
+  font-size: inherit;
+}
+
+.logged-in .tabs {
+  margin-bottom: 1em;
+}
+
+.form-item {
+  /* Begin .form-item */
+  margin: 1.5em 0 1.5em 0 label;
+  margin-font-size: inherit;
+}
+
+/* End .form-item */
+.view-advisory-council .views-row {
+  margin: 2em 0 1em 0;
+}
+
+.placeholder_photo {
+  max-width: 150px;
+}
+
+.advisory-council-member-photo {
+  padding: 1em 1em 0 0;
+  float: left;
+}
+
+.advisory-council-member-name {
+  font-size: 1.25em;
+  font-family: Verdana, sans-serif;
+  /* Inserted Verdana to fix apostrophe render */
+}
+
+.advisory-council-member-title {
+  color: #68696b;
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.field-name-field-speaker {
+  font-size: 1.8em;
+}
+
+.field-name-field-institution {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+.views-row {
+  margin: 1em 0 1em 0;
+}
+
+.webform-client-form {
+  margin: 1em 0 0 0;
+}
+
+.fieldset-wrapper {
+  margin-top: 2em;
+}
+.fieldset-wrapper .form-item {
+  margin: 0.25em 0 0.25em 0;
+}
+
+.field-name-field-related-url {
+  margin: 1em 0 1em 0;
+}
+
+#page-wrapper {
+  min-width: 370px;
+  background: black;
+}
+
+#branding {
+  /* Begin #branding */
+  margin: 0 1em 0 1em;
+  /* End #block-search within #branding */
+}
+#branding p {
+  margin: 0;
+}
+@media screen and (min-width: 860px) {
+  #branding {
+    max-height: 56px;
+  }
+}
+#branding p > a {
+  background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+  background-size: 296.66667px 24.66667px;
+  display: block;
+  text-indent: -999em;
+  min-width: 300px;
+  text-align: left;
+  padding: 1em 0 1em 0;
+}
+#branding #block-princeton-university-logo {
+  float: left;
+}
+@media screen and (max-width: 860px) {
+  #branding #block-princeton-university-logo {
+    float: none;
+  }
+}
+#branding #block-search {
+  /* Begin #block-search within #branding */
+  float: right;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0.5em;
+}
+#branding #block-search input.form-text {
+  width: 300px;
+}
+@media screen and (max-width: 860px) {
+  #branding #block-search {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #branding #block-search input.form-text {
+    width: 80%;
+  }
+  #branding #block-search .container-inline .form-actions {
+    margin-left: 0.5em;
+  }
+}
+
+/* End #branding */
+#header {
+  /* Begin #header */
+  padding: 1em;
+  background-color: white;
+  /* End #logo within #header */
+}
+@media screen and (min-width: 860px) {
+  #header {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  #header {
+    background-image: url(/sites/all/themes/ORFEx/images/logo-narrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60px;
+  }
+}
+#header #logo {
+  /* Begin #logo within #header */
+  line-height: 0.5em;
+}
+@media screen and (min-width: 860px) {
+  #header #logo {
+    max-width: 45%;
+    min-width: 350px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 860px) {
+  #header #logo img {
+    display: none;
+  }
+}
+
+/* End #header */
+#headerwell {
+  /* Begin #headerwell */
+}
+
+/* End #headerwell */
+#featured {
+  border-bottom: none;
+  text-align: center;
+  font-weight: normal;
+  /* End .region-featured within #featured. */
+  text-align: center;
+  padding: 0;
+  background: none;
+  border-bottom: none;
+  text-shadow: none;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 860px) {
+  #featured {
+    font-size: 1em;
+  }
+  #featured .views-field-title {
+    padding: 0.5em 0 0.5em 0;
+  }
+}
+#featured .block ul, #featured .block ol {
+  padding: 0;
+}
+@media screen and (min-width: 860px) {
+  #featured .views-field-title {
+    padding: 1em 0 1em 0;
+  }
+}
+#featured .flexslider {
+  margin: 0;
+  border: none;
+}
+#featured .flex-control-nav {
+  position: unset;
+}
+#featured .region-featured {
+  /* Begin .region-featured within #featured. */
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#featured div.section {
+  /* Begin div.section within #featured */
+  max-width: initial;
+  width: initial;
+  margin: initial;
+}
+
+/* End #featured */
+#main-wrapper {
+  /* Begin #main-wrapper */
+  margin: 0 1em 0 1em;
+  /* End #main */
+}
+#main-wrapper .menu a {
+  color: inherit;
+}
+#main-wrapper #main {
+  /* Begin #main */
+  margin: auto;
+  /* End #content */
+  /* Begin diptych addition */
+  /* End diptych addition */
+}
+@media screen and (max-width: 860px) {
+  #main-wrapper #main {
+    margin: 0;
+  }
+}
+#main-wrapper #main #content {
+  /* Begin #content */
+  float: none;
+  /* End .region-preface within #content. */
+}
+@media screen and (min-width: 860px) {
+  #main-wrapper #main #content {
+    float: none;
+  }
+}
+#main-wrapper #main #content .region-preface {
+  /* Begin .region-preface within #content */
+  /* End #block-bulletins-view-block within .region-preface. */
+}
+#main-wrapper #main #content .region-preface #block-bulletins-view-block {
+  /* Begin #block-bulletins-view-block within .region-preface. */
+  display: flex;
+  background-color: #fffaf0;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  border: 4px solid #ed8936;
+}
+#main-wrapper #main #content .section {
+  padding: 0;
+}
+#main-wrapper #main #content #advisory-council-section-for-prospective-students-page {
+  margin-bottom: 1em;
+  text-align: center;
+}
+#main-wrapper #main #content #block-photos-for-undergraduate-page-student-placement li, #main-wrapper #main #content #block-photos-for-undergraduate-prospective-students-page li, #main-wrapper #main #content #block-photos-for-undergraduate-student-placement li {
+  margin: 1em;
+}
+#main-wrapper #main .region-diptych-first, #main-wrapper #main .region-diptych-second {
+  float: left;
+  width: 50%;
+}
+#main-wrapper #main #diptych {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-wrapper #main .region-diptych-first,
+#main-wrapper #main .region-diptych-second {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px 0;
+}
+@media all and (min-width: 560px) and (max-width: 860px) {
+  #main-wrapper #main .region-diptych-first,
+#main-wrapper #main .region-diptych-second {
+    display: inline;
+    float: left;
+    /* LTR */
+    position: relative;
+  }
+}
+@media all and (min-width: 860px) {
+  #main-wrapper #main #diptych {
+    max-width: 1140px;
+  }
+  #main-wrapper #main .region-diptych-first,
+#main-wrapper #main .region-diptych-second {
+    display: inline;
+    float: left;
+    /* LTR */
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
+
+/* End #main-wrapper */
+#triptych-wrapper {
+  /* Begin #triptych-wrapper */
+  margin-bottom: -15px;
+  /*Corrects for margin on every other page. */
+  border-top: none;
+  /* End #triptych within #triptych-wrapper */
+}
+#triptych-wrapper a {
+  color: #004d79;
+}
+#triptych-wrapper a:active {
+  color: #23aeff;
+}
+#triptych-wrapper a:hover, #triptych-wrapper a:focus {
+  color: #018fe2;
+}
+#triptych-wrapper ul.menu li {
+  margin: 0;
+}
+#triptych-wrapper #triptych {
+  /* Begin #triptych within #triptych-wrapper */
+  padding: 1em 0 0 0;
+  background-color: #f0f0f0;
+}
+#triptych-wrapper #triptych .block {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#triptych-wrapper #triptych .view-display-id-all_upcoming_events_block li {
+  margin-bottom: 1em;
+}
+#triptych-wrapper #triptych .block, #triptych-wrapper #triptych .menu, #triptych-wrapper #triptych .content {
+  text-align: center;
+  line-height: 1.5em;
+  border-bottom: none;
+}
+#triptych-wrapper #triptych h2 {
+  margin: 0 0 1em 0;
+}
+
+/* End #triptych-wrapper */
+#footer-wrapper {
+  /* Begin #footer-wrapper */
+  background: black;
+  color: #fcfcfc;
+  font-family: inherit;
+  font-size: inherit;
+  margin-top: 1em;
+  padding: 0;
+  /* End #block-facebook-logo within #footer-columns */
+}
+#footer-wrapper .block {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 860px) {
+  #footer-wrapper .block {
+    text-align: center;
+  }
+}
+#footer-wrapper #footer-columns {
+  /* Begin #footer-columns */
+  max-width: none;
+}
+#footer-wrapper #footer-columns p {
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+#footer-wrapper #footer-columns .block {
+  border: none;
+}
+#footer-wrapper #footer-columns .region-footer-fourthcolumn {
+  float: right;
+}
+@media screen and (max-width: 860px) {
+  #footer-wrapper #footer-columns .region-footer-fourthcolumn {
+    float: none;
+  }
+}
+#footer-wrapper #block-facebook-logo {
+  /* Begin #block-facebook-logo within #footer-columns */
+  max-width: 50px;
+  float: right;
+  margin: 0 1em 0 0;
+}
+@media screen and (max-width: 860px) {
+  #footer-wrapper #block-facebook-logo {
+    float: none;
+    margin: auto;
+  }
+}
+
+/* End #footer-columns */
+#footer-wrapper .section {
+  padding: 0;
+}
+#footer-wrapper #footer {
+  /* Begin #footer within #footer-wrapper */
+  max-width: none;
+  margin: 0 1em 0 1em;
+  border-top: none;
+  /* End #block-user-menu-block within #footer, #footer-wrapper */
+}
+#footer-wrapper #footer .block {
+  clear: none;
+}
+#footer-wrapper #footer .region, #footer-wrapper #footer .content {
+  margin: 0 0 0 0;
+}
+#footer-wrapper #footer #block-user-menu-block {
+  /* Begin #block-user-menu-block within #footer, #footer-wrapper */
+  color: gray;
+}
+#footer-wrapper #footer #engineeringsignature {
+  /* Begin #engineeringsignature within #footer-wrapper */
+  width: 20%;
+  max-width: 70%;
+  min-width: 225px;
+  margin-left: -20px;
+}
+
+/* End #footer-wrapper */
+
+/*# sourceMappingURL=orfex.css.map */
