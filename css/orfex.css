@@ -361,60 +361,67 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 }
 
 #branding {
-  /* Begin #branding */
-  margin: 0 1em 0 1em;
-  /* End #block-search within #branding */
+  display: flex;
+  background-color: white;
+}
+@media (prefers-color-scheme: dark) {
+  #branding {
+    background-color: black;
+  }
+}
+#branding .region-branding {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  #branding .region-branding {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 #branding p {
   margin: 0;
 }
-@media screen and (min-width: 860px) {
-  #branding {
-    max-height: 56px;
-  }
+#branding .block .content {
+  margin-top: 0;
 }
 #branding p > a {
   background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
-  background-size: 296.66667px 24.66667px;
-  display: block;
+  background-size: 300px 45px;
   text-indent: -999em;
   min-width: 300px;
   text-align: left;
-  padding: 1em 0 1em 0;
+  padding: 1em 0 1em 1em;
+  display: block;
 }
-#branding #block-princeton-university-logo {
-  float: left;
-}
-@media screen and (max-width: 860px) {
-  #branding #block-princeton-university-logo {
-    float: none;
+@media (prefers-color-scheme: dark) {
+  #branding p > a {
+    background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
+    background-size: 300px 45px;
+    text-indent: -999em;
+    min-width: 300px;
+    text-align: left;
+    padding: 1em 0 1em 1em;
+    display: block;
   }
 }
-#branding #block-search {
-  /* Begin #block-search within #branding */
-  float: right;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0.5em;
+#branding .search-block-form {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
-#branding #block-search input.form-text {
-  width: 300px;
+#branding div[id^=edit-actions] {
+  margin-right: 0.6em;
 }
-@media screen and (max-width: 860px) {
-  #branding #block-search {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-  #branding #block-search input.form-text {
-    width: 80%;
-  }
-  #branding #block-search .container-inline .form-actions {
-    margin-left: 0.5em;
-  }
+#branding .search-form .form-search {
+  float: none;
+  width: 200px;
 }
 
-/* End #branding */
 #header {
   /* Begin #header */
   padding: 1em;

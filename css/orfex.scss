@@ -399,66 +399,66 @@ margin: 1em 0 1em 0;
 min-width: 370px;
 }
 
-#branding { /* Begin #branding */
+#branding {
+	display: flex;
+	background-color: white;
+	@media (prefers-color-scheme: dark) {
+	background-color: black;
+	}
+	
+	.region-branding {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: baseline;
+	text-align: center;
+	@media only screen and (max-width: 600px) {
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+	}
 
-margin: 0 1em 0 1em;
-
-p {
-margin: 0;
+	}
+	p {
+		margin: 0;
+	}
+	.block .content {
+		margin-top: 0;
+	}
+	p > a {
+		@media (prefers-color-scheme: dark) {
+			background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
+		background-size: 300px 45px;
+		text-indent: -999em;
+		min-width: 300px;
+		text-align: left;
+		padding: 1em 0 1em 1em;
+		display: block;
+	}
+		background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
+		background-size: 300px 45px;
+		text-indent: -999em;
+		min-width: 300px;
+		text-align: left;
+		padding: 1em 0 1em 1em;
+		display: block;
+	}
+	
+		.search-block-form {
+			display: flex;
+			justify-content: center;
+			align-items: baseline;
+		}
+		
+		div[id^="edit-actions"] {
+			margin-right: 0.6em;
+			}
+		
+		.search-form .form-search {
+		float: none;
+		width: 200px;
+	}
 }
-
-@media screen and (min-width: $breakpoint) {
-max-height: 56px;
-}
-
-p>a {
-background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
-background-size: 296.66667px 24.66667px;
-display: block;
-text-indent: -999em;
-min-width: 300px;
-text-align: left;
-padding: 1em 0 1em 0;
-}
-
-
-#block-princeton-university-logo {
-float: left;
-
-@media screen and (max-width: $breakpoint) {
-float: none;
-}
-}
-
-#block-search { /* Begin #block-search within #branding */
-
-float: right;
-margin-bottom: 0;
-padding-bottom: 0;
-padding-top: 0.5em;
-
-input.form-text {
-width: 300px;
-}
-
-@media screen and (max-width: $breakpoint) {
-float: none;
-width:100%;
-text-align:center;
-input.form-text {
-width: 80%;
-}
-
-.container-inline .form-actions {
-margin-left: 0.5em;
-}
-
-}
-
-} /* End #block-search within #branding */
-
-} /* End #branding */
-
 
 
 #header { /* Begin #header */
