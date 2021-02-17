@@ -443,7 +443,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 }
 @media screen and (min-width: 860px) {
   #header #logo {
-    max-width: 45%;
+    max-width: 25%;
     min-width: 350px;
     padding: 0;
   }
