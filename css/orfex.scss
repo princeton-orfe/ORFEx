@@ -5,6 +5,10 @@ $default_link_color: #004d79;
 $default_link_color_active: #23aeff;
 $default_link_color_focus: #018fe2;
 
+div.admin {
+padding-top: 0;
+}
+
 
 #block-bulletins-view-block {
 display: flex;
