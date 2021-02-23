@@ -6,6 +6,14 @@ $default_link_color_active: #23aeff;
 $default_link_color_focus: #018fe2;
 
 
+#block-bulletins-view-block {
+display: flex;
+background-color: #fffaf0;
+padding: 0.5em;
+margin-bottom: 1.5em;
+border: 4px solid #ed8936;
+}
+
 // Elements
 
 h1, h1#page-title {
@@ -573,13 +581,7 @@ float: none;
 }
 
 .region-preface { /* Begin .region-preface within #content */
-#block-bulletins-view-block { /* Begin #block-bulletins-view-block within .region-preface. */
-display: flex;
-background-color: #fffaf0;
-padding: 0.5em;
-margin-bottom: 1.5em;
-border: 4px solid #ed8936;
-} /* End #block-bulletins-view-block within .region-preface. */
+ /* End #block-bulletins-view-block within .region-preface. */
 } /* End .region-preface within #content. */
 
 .section {

@@ -1,4 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+#block-bulletins-view-block {
+  display: flex;
+  background-color: #fffaf0;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  border: 4px solid #ed8936;
+}
+
 h1, h1#page-title {
   font-size: 1.75em;
   margin: 0.75em 0 0.75em 0em;
@@ -538,14 +546,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 #main-wrapper #main #content .region-preface {
   /* Begin .region-preface within #content */
   /* End #block-bulletins-view-block within .region-preface. */
-}
-#main-wrapper #main #content .region-preface #block-bulletins-view-block {
-  /* Begin #block-bulletins-view-block within .region-preface. */
-  display: flex;
-  background-color: #fffaf0;
-  padding: 0.5em;
-  margin-bottom: 1.5em;
-  border: 4px solid #ed8936;
 }
 #main-wrapper #main #content .section {
   padding: 0;
