@@ -471,7 +471,7 @@ min-width: 370px;
 
 
 #header { /* Begin #header */
-padding: 1em;
+padding: 0;
 background-color: white;
 @media screen and (min-width: $breakpoint) {
 background-image: none;
