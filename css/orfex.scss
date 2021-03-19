@@ -8,6 +8,7 @@ $primary_menu_bgcolor: #525355;
 $secondary_menu_bgcolor: #818285;
 $bulletins_bgcolor: #fffaf0;
 $bulletins_border: #ed8936;
+$admin_menu_bgcolor: black;
 
 #block-bulletins-view-block {
 display: flex;
@@ -129,7 +130,7 @@ background-color: $secondary_menu_bgcolor;
 }
 
 .admin.menu {
-background-color: black;
+background-color: $admin_menu_bgcolor;
 }
 
 .menu { /* Begin #block-main-menu-block within #headerwell */
