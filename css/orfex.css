@@ -254,9 +254,9 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin-top: 0;
 }
 
-.tabs {
+.tabs, .logged-in .tabs {
   font-family: inherit;
-  margin-bottom: 1em;
+  margin: 0;
 }
 
 .container-inline-date > .form-item {
@@ -297,10 +297,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 
 .node .content, .form-select {
   font-size: inherit;
-}
-
-.logged-in .tabs {
-  margin-bottom: 1em;
 }
 
 .form-item {

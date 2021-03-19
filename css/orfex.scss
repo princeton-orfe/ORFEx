@@ -279,9 +279,9 @@ padding: 0;
 margin-top: 0;
 }
 
-.tabs {
+.tabs, .logged-in .tabs {
 font-family: inherit;
-margin-bottom: 1em;
+margin: 0;
 }
 
 .container-inline-date > .form-item {
@@ -331,9 +331,7 @@ margin: 0 0 0 1em;
 font-size: inherit;
 }
 
-.logged-in .tabs {
-margin-bottom: 1em;
-}
+
 
 .form-item { /* Begin .form-item */
 margin: 1.5em 0 1.5em 0
