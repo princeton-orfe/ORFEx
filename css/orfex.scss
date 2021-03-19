@@ -4,18 +4,17 @@ $breakpoint: 860px;
 $default_link_color: #004d79;
 $default_link_color_active: #23aeff;
 $default_link_color_focus: #018fe2;
-
-div.admin {
-padding-top: 0;
-}
-
+$primary_menu_bgcolor: #525355;
+$secondary_menu_bgcolor: #818285;
+$bulletins_bgcolor: #fffaf0;
+$bulletins_border: #ed8936;
 
 #block-bulletins-view-block {
 display: flex;
-background-color: #fffaf0;
+background-color: $bulletins_bgcolor;
 padding: 0.5em;
 margin-bottom: 1.5em;
-border: 4px solid #ed8936;
+border: 4px solid $bulletins_border;
 }
 
 // Elements
@@ -122,11 +121,11 @@ margin-top: 1em;
 
 
 .primary.menu {
-background-color: #525355;
+background-color: $primary_menu_bgcolor;
 }
 
 .secondary.menu {
-background-color: #818285;
+background-color: $secondary_menu_bgcolor;
 }
 
 .admin.menu {
@@ -272,11 +271,6 @@ text-transform: capitalize;
 
 .featured #messages {
 background: white;
-}
-
-.section, .region, .block .content {
-padding: 0;
-margin-top: 0;
 }
 
 .tabs, .logged-in .tabs {

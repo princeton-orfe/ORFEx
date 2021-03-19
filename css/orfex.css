@@ -1,8 +1,4 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
-div.admin {
-  padding-top: 0;
-}
-
 #block-bulletins-view-block {
   display: flex;
   background-color: #fffaf0;
@@ -247,11 +243,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 
 .featured #messages {
   background: white;
-}
-
-.section, .region, .block .content {
-  padding: 0;
-  margin-top: 0;
 }
 
 .tabs, .logged-in .tabs {
