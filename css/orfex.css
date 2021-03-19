@@ -13,7 +13,7 @@ div.admin {
 
 h1, h1#page-title {
   font-size: 1.75em;
-  margin: 0.75em 0 0.75em 0em;
+  margin-bottom: 1em;
   text-align: left;
 }
 @media screen and (max-width: 860px) {
@@ -519,7 +519,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 /* End #featured */
 #main-wrapper {
   /* Begin #main-wrapper */
-  margin: 0 1em 0 1em;
+  margin: 1em;
   /* End #main */
 }
 #main-wrapper .menu a {
