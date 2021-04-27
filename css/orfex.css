@@ -407,7 +407,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
     display: block;
   }
 }
-#branding .search-block-form > div {
+#branding .search-block-form > div > div {
   display: flex;
   justify-content: center;
   align-items: baseline;
