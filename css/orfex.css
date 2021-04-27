@@ -798,4 +798,8 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   }
 }
 
+.faculty .people .region-content ul {
+  margin: 0;
+}
+
 /*# sourceMappingURL=orfex.css.map */
