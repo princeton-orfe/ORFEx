@@ -531,6 +531,9 @@ border: none;
     line-height: 40px;
 }
 
+/* Causes flexslider to always show its arrow navigation controls. */
+
+
 .flexslider .flex-direction-nav a,
 .flexslider .flex-direction-nav a {
 display: block;
@@ -539,6 +542,9 @@ display: block;
 .flex-direction-nav .flex-next { right: 0 !important; margin-right: -40px; opacity: 1 !important; }
 .flex-direction-nav .flex-prev { left: 0 !important; opacity: 1 !important; margin-left: -40px; }
 .flexslider { width: 90%; margin: 0 auto; }
+
+
+/* End flexslider always-show. */
 
 .flex-control-nav {
 position: unset;
