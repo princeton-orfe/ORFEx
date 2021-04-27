@@ -777,10 +777,15 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   background-color: #525355;
 }
 
-.spotlight-block h2 {
+.spotlight-block {
   position: relative;
-  right: 40%;
-  top: 40px;
+}
+
+.spotlight-label {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  background-color: red;
   z-index: 5;
 }
 

@@ -862,11 +862,15 @@ margin-left: -20px;
 background-color: $primary_menu_bgcolor;
 }
 
+
 .spotlight-block {
-	h2 {
-		position: relative;
-		right: 40%;
-		top: 40px;
-		z-index: 5;
-	}
+position: relative;
+}
+
+.spotlight-label {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+	background-color: red;
+	z-index: 5;
 }
