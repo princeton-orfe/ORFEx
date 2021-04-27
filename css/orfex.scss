@@ -453,14 +453,21 @@ min-width: 370px;
 		display: block;
 	}
 	
+	.block-search {
+		@media only screen and (max-width: 600px) {
+			width: 100vw;
+		}
+	}
+	
 		#search-block-form > div > div {
 			display: flex;
 			justify-content: center;
-			align-items: baseline;
+			align-items: center;
 		}
 		
 		div[id^="edit-actions"] {
 			margin-right: 0.6em;
+			margin-left: 1em;
 			}
 		
 		.search-form .form-search {

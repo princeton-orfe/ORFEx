@@ -407,13 +407,19 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
     display: block;
   }
 }
+@media only screen and (max-width: 600px) {
+  #branding .block-search {
+    width: 100vw;
+  }
+}
 #branding #search-block-form > div > div {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 #branding div[id^=edit-actions] {
   margin-right: 0.6em;
+  margin-left: 1em;
 }
 #branding .search-form .form-search {
   float: none;
