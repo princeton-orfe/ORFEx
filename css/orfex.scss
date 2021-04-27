@@ -837,8 +837,12 @@ margin-left: -20px;
 	max-width: initial;
 	display:flex;
 	justify-content: center;
+	
+	button {
+		background-color: $primary_menu_bgcolor;
+	}
 }
 
 #headerwell>.section {
-background-color: #aaa;
+background-color: $primary_menu_bgcolor;
 }

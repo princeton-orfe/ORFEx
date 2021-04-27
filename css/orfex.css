@@ -759,9 +759,12 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   display: flex;
   justify-content: center;
 }
+.dl-menuwrapper button {
+  background-color: #525355;
+}
 
 #headerwell > .section {
-  background-color: #aaa;
+  background-color: #525355;
 }
 
 /*# sourceMappingURL=orfex.css.map */
