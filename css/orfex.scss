@@ -886,8 +886,12 @@ margin-left: -20px;
 }
 
 .faculty .people {
-
-	ul, .item-list ul li {
-		margin: 0;
+	.view-content {
+		.item-list ul {
+			margin: 0;
+			padding: 0;
+		}
 	}
+
 }
+

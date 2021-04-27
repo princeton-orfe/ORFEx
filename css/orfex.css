@@ -798,8 +798,9 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   }
 }
 
-.faculty .people ul, .faculty .people .item-list ul li {
+.faculty .people .view-content .item-list ul {
   margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=orfex.css.map */
