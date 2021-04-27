@@ -486,7 +486,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   text-shadow: none;
   font-size: 1.2em;
 }
-#featured .block ul {
+#featured .block ol, #featured .block ul {
   padding: 0;
 }
 @media screen and (max-width: 860px) {
