@@ -869,11 +869,12 @@ position: relative;
 
 .spotlight-label {
 	position: absolute;
-	left: 1em;
-	top: 1em;
+	left: 0;
+	top: 0;
 	background-color: white;
 	padding: 10px;
 	border-radius: 5px;
 	border: 1px solid gray;
 	z-index: 5;
+	margin: 5px 0 0 0;
 }
