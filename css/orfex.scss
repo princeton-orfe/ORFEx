@@ -832,3 +832,13 @@ margin-left: -20px;
 #main-menu-responsive>nav>button {
 	display:none;
 }
+
+.dl-menuwrapper {
+	max-width: initial;
+	display:flex;
+	justify-content: center;
+}
+
+#headerwell>.section {
+background-color: lightgray;
+}
