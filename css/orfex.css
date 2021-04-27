@@ -761,7 +761,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 }
 
 #headerwell > .section {
-  background-color: lightgray;
+  background-color: #aaa;
 }
 
 /*# sourceMappingURL=orfex.css.map */
