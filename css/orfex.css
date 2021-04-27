@@ -499,15 +499,15 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
     padding: 1em 0 1em 0;
   }
 }
-#featured .flexslider {
+#featured #featured .flexslider {
   margin: 0;
   border: none;
 }
 @media screen and (max-width: 860px) {
-  #featured .flexslider {
+  #featured #featured .flexslider {
     width: 100vw;
   }
-  #featured .flexslider .slides {
+  #featured #featured .flexslider .slides {
     padding: 0;
   }
 }
