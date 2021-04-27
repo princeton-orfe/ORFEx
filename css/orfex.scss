@@ -878,7 +878,7 @@ margin-left: -20px;
 	font-size: 1.1em;
 }
 
-.region-triptych-first, region-triptych-middle {
+#triptych>.region {
 	@media screen and (max-width: $breakpoint) {
 		margin-bottom: 1em;
 
