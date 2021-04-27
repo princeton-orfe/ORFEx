@@ -780,6 +780,8 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 .spotlight-block h2 {
   position: relative;
   right: 40%;
+  top: 40px;
+  z-index: 5;
 }
 
 /*# sourceMappingURL=orfex.css.map */

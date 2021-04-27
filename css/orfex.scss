@@ -866,5 +866,7 @@ background-color: $primary_menu_bgcolor;
 	h2 {
 		position: relative;
 		right: 40%;
+		top: 40px;
+		z-index: 5;
 	}
 }
