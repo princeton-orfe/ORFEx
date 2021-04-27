@@ -543,7 +543,18 @@ padding: 1em 0 1em 0;
 .flexslider {
 margin: 0;
 border: none;
+
+	@media screen and (max-width: $breakpoint) {
+		width: 100vw;
+		.slides {
+			padding: 0;
+		}
+	}
+
 }
+
+
+
 
 .flex-direction-nav a  {
     line-height: 40px;
