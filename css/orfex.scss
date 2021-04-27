@@ -877,3 +877,10 @@ margin-left: -20px;
 	margin: 4px 0 0 0;
 	font-size: 1.1em;
 }
+
+.region-triptych-first, region-triptych-middle {
+	@media screen and (max-width: $breakpoint) {
+		margin-bottom: 1em;
+
+	}
+}
