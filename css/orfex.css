@@ -491,9 +491,23 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 #featured .flex-direction-nav a {
   line-height: 40px;
 }
-#featured .flex-viewport:hover ~ .flex-direction-nav .flex-nav-prev,
-#featured .flex-viewport:hover ~ .flex-direction-nav .flex-nav-next {
-  opacity: 1;
+#featured .flexslider .flex-direction-nav a,
+#featured .flexslider .flex-direction-nav a {
+  display: block;
+}
+#featured .flex-direction-nav .flex-next {
+  right: 0 !important;
+  margin-right: -40px;
+  opacity: 1 !important;
+}
+#featured .flex-direction-nav .flex-prev {
+  left: 0 !important;
+  opacity: 1 !important;
+  margin-left: -40px;
+}
+#featured .flexslider {
+  width: 90%;
+  margin: 0 auto;
 }
 #featured .flex-control-nav {
   position: unset;

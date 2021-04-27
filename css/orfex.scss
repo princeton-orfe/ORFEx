@@ -531,8 +531,14 @@ border: none;
     line-height: 40px;
 }
 
-.flex-viewport:hover ~ .flex-direction-nav .flex-nav-prev,
-.flex-viewport:hover ~ .flex-direction-nav .flex-nav-next  { opacity: 1; }
+.flexslider .flex-direction-nav a,
+.flexslider .flex-direction-nav a {
+display: block;
+}
+
+.flex-direction-nav .flex-next { right: 0 !important; margin-right: -40px; opacity: 1 !important; }
+.flex-direction-nav .flex-prev { left: 0 !important; opacity: 1 !important; margin-left: -40px; }
+.flexslider { width: 90%; margin: 0 auto; }
 
 .flex-control-nav {
 position: unset;
