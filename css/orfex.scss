@@ -532,7 +532,7 @@ border: none;
 }
 
 .flex-viewport:hover ~ .flex-direction-nav .flex-nav-prev,
-.flex-viewport:hover ~ .flex-direction-nav .flex-nav-next  { display: initial; }
+.flex-viewport:hover ~ .flex-direction-nav .flex-nav-next  { opacity: 1; }
 
 .flex-control-nav {
 position: unset;
