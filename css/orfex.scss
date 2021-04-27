@@ -453,7 +453,7 @@ min-width: 370px;
 		display: block;
 	}
 	
-		.search-block-form {
+		.search-block-form > div {
 			display: flex;
 			justify-content: center;
 			align-items: baseline;
@@ -816,3 +816,5 @@ margin-left: -20px;
 }
 
 } /* End #footer-wrapper */
+
+
