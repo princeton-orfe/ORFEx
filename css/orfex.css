@@ -602,7 +602,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 }
 @media all and (min-width: 860px) {
   #main-wrapper #main #diptych {
-    max-width: 1140px;
+    max-width: 1290px;
   }
   #main-wrapper #main .region-diptych-first,
 #main-wrapper #main .region-diptych-second {
