@@ -357,6 +357,8 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 
 #branding {
   background-color: white;
+  max-width: 1290px;
+  margin: 0 auto;
 }
 @media (prefers-color-scheme: dark) {
   #branding {
