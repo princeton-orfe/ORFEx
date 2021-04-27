@@ -403,9 +403,14 @@ min-width: 370px;
 }
 
 #branding {
+
+	>.section {
+		max-width: 1290px;
+		margin: 0 auto;
+
+	}
+
 	background-color: white;
-	max-width: 1290px;
-	margin: 0 auto;
 	@media (prefers-color-scheme: dark) {
 	background-color: black;
 	}
