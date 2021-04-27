@@ -750,5 +750,8 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 }
 
 /* End #footer-wrapper */
+#main-menu-responsive > nav > button {
+  display: none;
+}
 
 /*# sourceMappingURL=orfex.css.map */
