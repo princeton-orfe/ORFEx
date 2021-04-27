@@ -503,7 +503,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin: 0;
   border: none;
 }
-@media screen and (min-width: 860px) {
+@media screen and (max-width: 860px) {
   #featured .flexslider {
     width: 100vw;
   }
