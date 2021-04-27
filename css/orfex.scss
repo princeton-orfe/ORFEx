@@ -859,22 +859,22 @@ margin-left: -20px;
 }
 
 #headerwell>.section {
-background-color: $primary_menu_bgcolor;
+	background-color: $primary_menu_bgcolor;
 }
 
 
 .spotlight-block {
-position: relative;
+	position: relative;
 }
 
 .spotlight-label {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: white;
-	padding: 10px;
+	background-color: rgba(255,255,255,0.85);
+	padding: 5px;
 	border-radius: 5px;
 	border: 1px solid gray;
 	z-index: 5;
-	margin: 5px 0 0 0;
+	margin: 4px 0 0 0;
 }
