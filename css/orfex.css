@@ -488,6 +488,13 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin: 0;
   border: none;
 }
+#featured .flex-direction-nav a {
+  line-height: 40px;
+}
+#featured .flex-viewport:hover ~ .flex-direction-nav .flex-nav-prev,
+#featured .flex-viewport:hover ~ .flex-direction-nav .flex-nav-next {
+  display: initial;
+}
 #featured .flex-control-nav {
   position: unset;
 }

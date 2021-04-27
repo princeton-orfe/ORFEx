@@ -527,6 +527,13 @@ margin: 0;
 border: none;
 }
 
+.flex-direction-nav a  {
+    line-height: 40px;
+}
+
+.flex-viewport:hover ~ .flex-direction-nav .flex-nav-prev,
+.flex-viewport:hover ~ .flex-direction-nav .flex-nav-next  { display: initial; }
+
 .flex-control-nav {
 position: unset;
 }
