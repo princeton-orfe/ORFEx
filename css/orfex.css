@@ -412,6 +412,9 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
     width: 100vw;
   }
 }
+#branding .form-actions {
+  padding-top: 0;
+}
 #branding #search-block-form > div > div {
   display: flex;
   justify-content: center;
