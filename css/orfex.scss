@@ -861,3 +861,10 @@ margin-left: -20px;
 #headerwell>.section {
 background-color: $primary_menu_bgcolor;
 }
+
+.spotlight-block {
+	h2 {
+		position: relative;
+		right: 40%;
+	}
+}
