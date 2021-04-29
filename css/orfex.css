@@ -820,4 +820,12 @@ fieldset {
   top: 0px;
 }
 
+html.js fieldset.collapsed .fieldset-legend {
+  background-image: none;
+}
+
+html.js fieldset.collapsible .fieldset-legend {
+  background: none;
+}
+
 /*# sourceMappingURL=orfex.css.map */
