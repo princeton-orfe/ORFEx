@@ -343,6 +343,10 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin: 1em 0 1em 0;
 }
 
+#page {
+  overflow: hidden;
+}
+
 #page-wrapper {
   min-width: 370px;
 }
