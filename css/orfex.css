@@ -84,7 +84,6 @@ fieldset legend {
   font-family: inherit;
   text-shadow: none;
   color: inherit;
-  font-weight: bold;
 }
 
 a {
@@ -804,6 +803,10 @@ html.js fieldset.collapsed {
 .collapse-text-text {
   position: relative;
   background: white;
+}
+
+fieldset legend a {
+  color: inherit;
 }
 
 /*# sourceMappingURL=orfex.css.map */

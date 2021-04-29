@@ -100,7 +100,6 @@ fieldset legend {
 font-family: inherit;
 text-shadow: none;
 color: inherit;
-font-weight: bold;
 }
 
 a {
@@ -899,4 +898,8 @@ height: 0;
 .collapse-text-text {
 	position: relative;
 	background: rgb(255,255,255);
+}
+
+fieldset legend a {
+	color: inherit;
 }
