@@ -826,6 +826,7 @@ html.js fieldset.collapsed .fieldset-legend {
 
 html.js fieldset.collapsible .fieldset-legend {
   background: none;
+  padding: 0 0 0 0;
 }
 
 /*# sourceMappingURL=orfex.css.map */
