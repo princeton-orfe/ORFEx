@@ -933,6 +933,9 @@ html.js fieldset.collapsible .fieldset-legend {
 
 .page-node-107110 td {
 	vertical-align:top;
+	@media screen and (max-width: $breakpoint) {
+		height: 175px;
+	}
 }
 
 .page-node-107110 tr>td>td>td {
