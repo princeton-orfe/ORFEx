@@ -336,9 +336,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin: 1em 0 0 0;
 }
 
-.fieldset-wrapper {
-  margin-top: 2em;
-}
 .fieldset-wrapper .form-item {
   margin: 0.25em 0 0.25em 0;
 }
@@ -802,6 +799,11 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 
 html.js fieldset.collapsed {
   height: 0;
+}
+
+.collapse-text-text {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 /*# sourceMappingURL=orfex.css.map */

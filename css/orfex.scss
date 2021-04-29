@@ -376,7 +376,6 @@ margin: 1em 0 0 0;
 }
 
 .fieldset-wrapper {
-margin-top: 2em;
 .form-item {
 margin: 0.25em 0 0.25em 0;
 }
@@ -895,4 +894,9 @@ margin-left: -20px;
 
 html.js fieldset.collapsed {
 height: 0;
+}
+
+.collapse-text-text {
+	position: relative;
+	background: rgb(255,255,255,0.8);
 }
