@@ -805,6 +805,12 @@ html.js fieldset.collapsed {
   background: white;
 }
 
+fieldset legend {
+  background: transparent;
+  border: none;
+  position: initial;
+}
+
 fieldset legend a {
   color: #004d79;
 }

@@ -900,6 +900,12 @@ height: 0;
 	background: rgb(255,255,255);
 }
 
+fieldset legend {
+	background: transparent;
+	border: none;
+	position: initial;
+}
+
 fieldset legend a {
 	color: $default_link_color;
 }
