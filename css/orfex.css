@@ -805,7 +805,6 @@ html.js fieldset.collapsed {
   background: white;
 }
 
-<<<<<<< HEAD
 fieldset legend {
   background: transparent;
   border: none;
@@ -813,16 +812,8 @@ fieldset legend {
   text-indent: 0;
 }
 
-=======
->>>>>>> parent of 37dab9f... Adjust fieldset display and links.
 fieldset legend a {
   color: #004d79;
-}
-
-fieldset {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  top: 0;
 }
 
 /*# sourceMappingURL=orfex.css.map */
