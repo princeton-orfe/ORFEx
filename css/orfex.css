@@ -819,6 +819,7 @@ fieldset legend a {
 
 fieldset {
   top: 0px;
+  margin-top: 0;
 }
 
 html.js fieldset.collapsed .fieldset-legend {
@@ -828,6 +829,10 @@ html.js fieldset.collapsed .fieldset-legend {
 html.js fieldset.collapsible .fieldset-legend {
   background: none;
   padding: 0 0 0 0;
+}
+
+.page-node-107110 {
+  vertical-align: top;
 }
 
 .page-node-107110 tr > td > td > td {
