@@ -803,6 +803,7 @@ html.js fieldset.collapsed {
 .collapse-text-text {
   position: relative;
   background: white;
+  margin-top: 1.5em;
 }
 
 fieldset legend {
