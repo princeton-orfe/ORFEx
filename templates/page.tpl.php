@@ -130,9 +130,7 @@
         <?php if ($site_name): ?>
           <?php if ($title): ?>
             <div id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
-              <!-- <strong>
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </strong> -->
             </div>
           <?php else: /* Use h1 when the content title is empty */ ?>
             <!-- <h1 id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
