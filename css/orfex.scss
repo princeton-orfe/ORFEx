@@ -969,7 +969,17 @@ html.js fieldset.collapsible .fieldset-legend {
 			max-width: none;
 			text-align:center;
 		}
-		#headerwell, #branding, #footer-wrapper {
+		#orfe-logo-text-block{
+			color: gray;
+			text-align: center;
+			font-size: 3.45em;
+			line-height: 1em;
+			p {
+			margin: 0;
+			}
+		}
+		
+		#headerwell, #branding, #footer-wrapper, #logo {
 			display:none;
 		}
 		.photoboard-group>.content>.view>.view-content {
