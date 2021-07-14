@@ -966,5 +966,9 @@ html.js fieldset.collapsible .fieldset-legend {
 		#headerwell, #branding, #footer-wrapper {
 			display:none;
 		}
+		.photoboard-group>.content>.view>.view-content {
+			display: flex;
+			flex-wrap: wrap;
+		}
 //	} /*end @media print */
 }
