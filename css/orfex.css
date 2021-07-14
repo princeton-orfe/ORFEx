@@ -866,8 +866,12 @@ html.js fieldset.collapsible .fieldset-legend {
   line-height: 1.4;
 }
 
+.page-administration-reports-grouped-faculty-and-staff-photo-board #main-wrapper {
+  margin: 0 auto;
+}
 .page-administration-reports-grouped-faculty-and-staff-photo-board #main {
   max-width: none;
+  text-align: center;
 }
 @page {
   .page-administration-reports-grouped-faculty-and-staff-photo-board {
@@ -880,6 +884,7 @@ html.js fieldset.collapsible .fieldset-legend {
 .page-administration-reports-grouped-faculty-and-staff-photo-board .photoboard-group > .content > .view > .view-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=orfex.css.map */
