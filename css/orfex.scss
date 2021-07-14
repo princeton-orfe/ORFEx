@@ -963,6 +963,10 @@ html.js fieldset.collapsible .fieldset-legend {
 .page-administration-reports-grouped-faculty-and-staff-photo-board {
 // @media print {
 
+		.views-field.views-field-field-position-1>.field-content {
+			font-size: 0.8em;
+		}
+
 		img {
 			max-height: 360px;
 		}
@@ -998,9 +1002,6 @@ html.js fieldset.collapsible .fieldset-legend {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-		}
-		.views-field.views-field-field-position, .views-field.views-field-field-position-1, .views-field.views-field-field-current-affiliated-inst {
-			font-size: 0.8em;
 		}
 //	} /*end @media print */
 }

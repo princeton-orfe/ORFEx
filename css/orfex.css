@@ -866,6 +866,9 @@ html.js fieldset.collapsible .fieldset-legend {
   line-height: 1.4;
 }
 
+.page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-position-1 > .field-content {
+  font-size: 0.8em;
+}
 .page-administration-reports-grouped-faculty-and-staff-photo-board img {
   max-height: 360px;
 }
@@ -898,9 +901,6 @@ html.js fieldset.collapsible .fieldset-legend {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-.page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-position, .page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-position-1, .page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-current-affiliated-inst {
-  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=orfex.css.map */
