@@ -962,8 +962,12 @@ html.js fieldset.collapsible .fieldset-legend {
 
 .page-administration-reports-grouped-faculty-and-staff-photo-board {
 // @media print {
+		#main-wrapper {
+			margin: 0 auto;
+		}
 		#main {
 			max-width: none;
+			text-align:center;
 		}
 		@page { size:37in 40in; }
 		#headerwell, #branding, #footer-wrapper {
@@ -972,6 +976,7 @@ html.js fieldset.collapsible .fieldset-legend {
 		.photoboard-group>.content>.view>.view-content {
 			display: flex;
 			flex-wrap: wrap;
+			justify-content: center;
 		}
 //	} /*end @media print */
 }
