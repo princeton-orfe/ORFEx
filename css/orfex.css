@@ -899,5 +899,8 @@ html.js fieldset.collapsible .fieldset-legend {
   flex-wrap: wrap;
   justify-content: center;
 }
+.page-administration-reports-grouped-faculty-and-staff-photo-board .views-field-field-position, .page-administration-reports-grouped-faculty-and-staff-photo-board .views-field-field-position-1, .page-administration-reports-grouped-faculty-and-staff-photo-board .views-field-field-current-affiliated-inst {
+  font-size: 0.8em;
+}
 
 /*# sourceMappingURL=orfex.css.map */
