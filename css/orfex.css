@@ -866,7 +866,7 @@ html.js fieldset.collapsible .fieldset-legend {
   line-height: 1.4;
 }
 
-.page-administration-reports-grouped-faculty-and-staff-photo-board {
+.page-administration-reports-grouped-faculty-and-staff-photo-board #main {
   max-width: none;
 }
 @page {
