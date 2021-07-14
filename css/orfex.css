@@ -866,7 +866,7 @@ html.js fieldset.collapsible .fieldset-legend {
   line-height: 1.4;
 }
 
-.page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-position-1 > .field-content {
+.page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-position > .field-content, .page-administration-reports-grouped-faculty-and-staff-photo-board .views-field.views-field-field-position-1 > .field-content {
   font-size: 0.8em;
 }
 .page-administration-reports-grouped-faculty-and-staff-photo-board img {
