@@ -962,6 +962,11 @@ html.js fieldset.collapsible .fieldset-legend {
 
 .page-administration-reports-grouped-faculty-and-staff-photo-board {
 // @media print {
+
+		img {
+			max-height: 360px;
+		}
+		
 		#main-wrapper {
 			margin: 0 auto;
 		}
