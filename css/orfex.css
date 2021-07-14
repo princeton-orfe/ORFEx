@@ -874,5 +874,9 @@ html.js fieldset.collapsible .fieldset-legend {
 .page-administration-reports-grouped-faculty-and-staff-photo-board #headerwell, .page-administration-reports-grouped-faculty-and-staff-photo-board #branding, .page-administration-reports-grouped-faculty-and-staff-photo-board #footer-wrapper {
   display: none;
 }
+.page-administration-reports-grouped-faculty-and-staff-photo-board .photoboard-group > .content > .view > .view-content {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*# sourceMappingURL=orfex.css.map */
