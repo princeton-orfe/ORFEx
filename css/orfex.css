@@ -866,15 +866,13 @@ html.js fieldset.collapsible .fieldset-legend {
   line-height: 1.4;
 }
 
-@media print {
-  @page {
-    .page-administration-reports-grouped-faculty-and-staff-photo-board {
-      size: 37in 40in;
-    }
+@page {
+  .page-administration-reports-grouped-faculty-and-staff-photo-board {
+    size: 37in 40in;
   }
-  .page-administration-reports-grouped-faculty-and-staff-photo-board #headerwell, .page-administration-reports-grouped-faculty-and-staff-photo-board #branding, .page-administration-reports-grouped-faculty-and-staff-photo-board #footer-wrapper {
-    display: none;
-  }
+}
+.page-administration-reports-grouped-faculty-and-staff-photo-board #headerwell, .page-administration-reports-grouped-faculty-and-staff-photo-board #branding, .page-administration-reports-grouped-faculty-and-staff-photo-board #footer-wrapper {
+  display: none;
 }
 
 /*# sourceMappingURL=orfex.css.map */
