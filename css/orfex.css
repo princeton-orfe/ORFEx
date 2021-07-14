@@ -882,6 +882,12 @@ html.js fieldset.collapsible .fieldset-legend {
 .page-administration-reports-grouped-faculty-and-staff-photo-board #orfe-logo-text-block p {
   margin: 0;
 }
+.page-administration-reports-grouped-faculty-and-staff-photo-board #page-title {
+  display: none;
+}
+.page-administration-reports-grouped-faculty-and-staff-photo-board #content h2 {
+  font-size: 2em;
+}
 .page-administration-reports-grouped-faculty-and-staff-photo-board #headerwell, .page-administration-reports-grouped-faculty-and-staff-photo-board #branding, .page-administration-reports-grouped-faculty-and-staff-photo-board #footer-wrapper, .page-administration-reports-grouped-faculty-and-staff-photo-board #logo {
   display: none;
 }
