@@ -673,6 +673,10 @@ margin: 1em;
 .region-diptych-first, .region-diptych-second {
 	float: left;
 	width: 50%;
+	@media all and (max-width: $breakpoint){
+		float: none;
+		width: 100%;
+	}
 }
 
 #diptych {
