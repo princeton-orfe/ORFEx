@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+.region-header {
+  float: left;
+}
+
 .orfe-logo-text-block {
   color: gray;
   text-align: center;
