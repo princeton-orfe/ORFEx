@@ -1,4 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+#orfe-logo-text-block {
+  color: gray;
+  text-align: center;
+  font-size: 3.45em;
+  line-height: 1em;
+}
+#orfe-logo-text-block p {
+  margin: 0;
+}
+
 #block-bulletins-view-block {
   display: flex;
   background-color: #fffaf0;
