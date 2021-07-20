@@ -503,17 +503,6 @@ min-width: 370px;
 #header { /* Begin #header */
 padding: 0;
 background-color: white;
-@media screen and (min-width: $breakpoint) {
-background-image: none;
-}
-
-@media screen and (max-width: $breakpoint) {
-	background-image: url(/sites/all/themes/ORFEx/images/logo-narrow.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 100px;
-}
 
 #logo { /* Begin #logo within #header */
 

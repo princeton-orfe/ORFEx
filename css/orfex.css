@@ -452,20 +452,6 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   background-color: white;
   /* End #logo within #header */
 }
-@media screen and (min-width: 860px) {
-  #header {
-    background-image: none;
-  }
-}
-@media screen and (max-width: 860px) {
-  #header {
-    background-image: url(/sites/all/themes/ORFEx/images/logo-narrow.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100px;
-  }
-}
 #header #logo {
   /* Begin #logo within #header */
   line-height: 0.5em;
