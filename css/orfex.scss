@@ -25,6 +25,12 @@ $admin_menu_bgcolor: black;
 	margin: 0;
 	font-size: 1.2em;
 	}
+	a {
+		color: gray;
+	}
+	a:hover {
+		text-decoration: none;
+	}
 }
 
 #block-bulletins-view-block {
