@@ -753,6 +753,11 @@ margin: 0;
 
 #triptych { /* Begin #triptych within #triptych-wrapper */
 
+@media all and (max-width: $breakpoint){
+	display: flex;
+	flex-flow: column;
+}
+
 .block {
 margin-bottom: 0;
 padding-bottom: 0;

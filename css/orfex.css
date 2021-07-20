@@ -685,6 +685,12 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   padding: 1em 0 0 0;
   background-color: #f0f0f0;
 }
+@media all and (max-width: 860px) {
+  #triptych-wrapper #triptych {
+    display: flex;
+    flex-flow: column;
+  }
+}
 #triptych-wrapper #triptych .block {
   margin-bottom: 0;
   padding-bottom: 0;
