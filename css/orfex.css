@@ -616,6 +616,13 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin-left: auto;
   margin-right: auto;
 }
+@media all and (max-width: 860px) {
+  #main-wrapper #main #diptych {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
 #main-wrapper #main .region-diptych-first,
 #main-wrapper #main .region-diptych-second {
   -moz-box-sizing: border-box;
