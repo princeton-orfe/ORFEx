@@ -10,7 +10,7 @@ $bulletins_bgcolor: #fffaf0;
 $bulletins_border: #ed8936;
 $admin_menu_bgcolor: black;
 
-#orfe-logo-text-block {
+.orfe-logo-text-block {
 	color: gray;
 	text-align: center;
 	font-size: 1em;
@@ -996,12 +996,12 @@ html.js fieldset.collapsible .fieldset-legend {
 			max-width: none;
 			text-align:center;
 		}
-		#orfe-logo-text-block {
+		.orfe-logo-text-block {
 			color: gray;
 			text-align: center;
 			font-size: 3.45em;
 			line-height: 1em;
-			width: 100%;
+			max-width: none;
 			p {
 			margin: 0;
 			}

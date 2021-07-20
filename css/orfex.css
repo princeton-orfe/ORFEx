@@ -1,12 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
-#orfe-logo-text-block {
+.orfe-logo-text-block {
   color: gray;
   text-align: center;
   font-size: 1em;
   line-height: 1em;
   max-width: 350px;
 }
-#orfe-logo-text-block p {
+.orfe-logo-text-block p {
   margin: 0;
 }
 
@@ -896,14 +896,14 @@ html.js fieldset.collapsible .fieldset-legend {
   max-width: none;
   text-align: center;
 }
-.page-administration-reports-grouped-faculty-and-staff-photo-board #orfe-logo-text-block {
+.page-administration-reports-grouped-faculty-and-staff-photo-board .orfe-logo-text-block {
   color: gray;
   text-align: center;
   font-size: 3.45em;
   line-height: 1em;
-  width: 100%;
+  max-width: none;
 }
-.page-administration-reports-grouped-faculty-and-staff-photo-board #orfe-logo-text-block p {
+.page-administration-reports-grouped-faculty-and-staff-photo-board .orfe-logo-text-block p {
   margin: 0;
 }
 .page-administration-reports-grouped-faculty-and-staff-photo-board #page-title {
