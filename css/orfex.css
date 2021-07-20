@@ -690,6 +690,9 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
     display: flex;
     flex-flow: column;
   }
+  #triptych-wrapper #triptych .region-triptych-first, #triptych-wrapper #triptych .region-triptych-middle, #triptych-wrapper #triptych .region-triptych-last {
+    width: 100%;
+  }
 }
 #triptych-wrapper #triptych .block {
   margin-bottom: 0;

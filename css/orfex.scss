@@ -756,6 +756,9 @@ margin: 0;
 @media all and (max-width: $breakpoint){
 	display: flex;
 	flex-flow: column;
+	.region-triptych-first, .region-triptych-middle, .region-triptych-last {
+		width: 100%;
+	}
 }
 
 .block {
