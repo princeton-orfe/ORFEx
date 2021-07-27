@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+.orf245comment {
+  margin: 1em;
+}
+
 .region-header {
   float: left;
   margin: 0 0 1em 0;
