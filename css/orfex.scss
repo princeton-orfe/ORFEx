@@ -10,6 +10,15 @@ $bulletins_bgcolor: #fffaf0;
 $bulletins_border: #ed8936;
 $admin_menu_bgcolor: black;
 
+.page-node-107153 {
+// Directory
+	#branding, #headerwell, #messages, #page-title, .tabs, #footer-wrapper {
+		display: none;
+	}
+
+}
+
+
 .orf245comment {
 	margin: 1em;
 }

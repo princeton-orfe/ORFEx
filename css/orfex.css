@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+.page-node-107153 #branding, .page-node-107153 #headerwell, .page-node-107153 #messages, .page-node-107153 #page-title, .page-node-107153 .tabs, .page-node-107153 #footer-wrapper {
+  display: none;
+}
+
 .orf245comment {
   margin: 1em;
 }
