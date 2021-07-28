@@ -12,6 +12,10 @@ $admin_menu_bgcolor: black;
 
 .page-node-107153 {
 // Directory
+	table {
+	    table-layout: fixed;
+
+	}
 	#branding, #headerwell, #messages, #page-title, .tabs, #footer-wrapper {
 		display: none;
 	}
