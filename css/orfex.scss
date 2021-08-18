@@ -228,6 +228,13 @@ ul>li {
 font-size: 0.75em;
 }
 
+
+.contact-card-grid {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+
 .contact-card {
         width: 46%;
 }
