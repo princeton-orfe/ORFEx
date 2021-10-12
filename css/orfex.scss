@@ -11,6 +11,10 @@ $bulletins_border: #ed8936;
 $admin_menu_bgcolor: black;
 
 .page-atrium-faculty-directory {
+	body {
+		background: black;
+		color: white;
+	}
 	table {
 		table-layout: fixed;
 	}
