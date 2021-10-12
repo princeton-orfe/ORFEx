@@ -2,6 +2,9 @@
 .page-atrium-faculty-directory table {
   table-layout: fixed;
 }
+.page-atrium-faculty-directory #branding, .page-atrium-faculty-directory #header, .page-atrium-faculty-directory #headerwell, .page-atrium-faculty-directory #footer-wrapper {
+  display: none;
+}
 
 .page-node-107153 table {
   table-layout: fixed;
