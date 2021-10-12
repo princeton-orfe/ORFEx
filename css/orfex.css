@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+.page-atrium-faculty-directory table {
+  table-layout: fixed;
+}
+
 .page-node-107153 table {
   table-layout: fixed;
 }
