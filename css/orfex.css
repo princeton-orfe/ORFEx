@@ -9,7 +9,7 @@
 .page-atrium-faculty-directory caption {
   margin: 0;
   font-weight: bolder;
-  background: #ff8f00;
+  background: rgba(255, 143, 0, 0.72);
   padding: 0.5em 0 0.5em 0.5em;
   color: white;
 }
