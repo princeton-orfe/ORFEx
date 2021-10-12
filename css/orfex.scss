@@ -15,10 +15,9 @@ $admin_menu_bgcolor: black;
 		background: black;
 	}
 
-	h1#page-title {
+	h1, h1#page-title {
 		font-size: 2.5em;
 		color: ff8f00;
-
 	}
 
 	caption {
@@ -27,7 +26,6 @@ $admin_menu_bgcolor: black;
 		background: #ff8f00;
 		padding: 0.5em 0 0.5em 0.5em;
 		color: white;
-
 	}
 
 	tr.even {
