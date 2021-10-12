@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
-.page-atrium-faculty-directory .page-wrapper {
+.page-atrium-faculty-directory #page-wrapper {
   background: black;
 }
 .page-atrium-faculty-directory h1, .page-atrium-faculty-directory h1#page-title {
