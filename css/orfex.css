@@ -1,4 +1,21 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+.page-atrium-faculty-directory .page-wrapper {
+  background: black;
+}
+.page-atrium-faculty-directory h1#page-title {
+  font-size: 2.5em;
+  color: ff8f00;
+}
+.page-atrium-faculty-directory caption {
+  margin: 0;
+  font-weight: bolder;
+  background: #ff8f00;
+  padding: 0.5em 0 0.5em 0.5em;
+  color: white;
+}
+.page-atrium-faculty-directory tr.even {
+  background: lightgray;
+}
 .page-atrium-faculty-directory body {
   background: black;
   color: white;

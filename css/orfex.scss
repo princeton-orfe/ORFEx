@@ -11,6 +11,29 @@ $bulletins_border: #ed8936;
 $admin_menu_bgcolor: black;
 
 .page-atrium-faculty-directory {
+	.page-wrapper {
+		background: black;
+	}
+
+	h1#page-title {
+		font-size: 2.5em;
+		color: ff8f00;
+
+	}
+
+	caption {
+		margin: 0;
+    		font-weight: bolder;
+		background: #ff8f00;
+		padding: 0.5em 0 0.5em 0.5em;
+		color: white;
+
+	}
+
+	tr.even {
+		background: lightgray;
+	}
+
 	body {
 		background: black;
 		color: white;
