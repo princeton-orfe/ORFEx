@@ -6,6 +6,9 @@
   font-size: 2.5em;
   color: #ff8f00;
 }
+.page-node-107192 h2, .page-atrium-faculty-directory h2, .page-atrium-admin-staff-directory h2, .page-atrium-research-staff-directory h2 {
+  color: white;
+}
 .page-node-107192 caption, .page-atrium-faculty-directory caption, .page-atrium-admin-staff-directory caption, .page-atrium-research-staff-directory caption {
   margin: 0;
   font-weight: bolder;
