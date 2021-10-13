@@ -1,29 +1,29 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
-.page-atrium-faculty-directory #page-wrapper {
+.page-atrium-faculty-directory #page-wrapper, .page-atrium-admin-staff-directory #page-wrapper {
   background: black;
 }
-.page-atrium-faculty-directory h1, .page-atrium-faculty-directory h1#page-title {
+.page-atrium-faculty-directory h1, .page-atrium-faculty-directory h1#page-title, .page-atrium-admin-staff-directory h1, .page-atrium-admin-staff-directory h1#page-title {
   font-size: 2.5em;
   color: #ff8f00;
 }
-.page-atrium-faculty-directory caption {
+.page-atrium-faculty-directory caption, .page-atrium-admin-staff-directory caption {
   margin: 0;
   font-weight: bolder;
   background: rgba(255, 143, 0, 0.72);
   padding: 0.5em 0 0.5em 0.5em;
   color: white;
 }
-.page-atrium-faculty-directory tr.even {
+.page-atrium-faculty-directory tr.even, .page-atrium-admin-staff-directory tr.even {
   background: lightgray;
 }
-.page-atrium-faculty-directory body {
+.page-atrium-faculty-directory body, .page-atrium-admin-staff-directory body {
   background: black;
   color: white;
 }
-.page-atrium-faculty-directory table {
+.page-atrium-faculty-directory table, .page-atrium-admin-staff-directory table {
   table-layout: fixed;
 }
-.page-atrium-faculty-directory #branding, .page-atrium-faculty-directory #header, .page-atrium-faculty-directory #headerwell, .page-atrium-faculty-directory #footer-wrapper {
+.page-atrium-faculty-directory #branding, .page-atrium-faculty-directory #header, .page-atrium-faculty-directory #headerwell, .page-atrium-faculty-directory #footer-wrapper, .page-atrium-admin-staff-directory #branding, .page-atrium-admin-staff-directory #header, .page-atrium-admin-staff-directory #headerwell, .page-atrium-admin-staff-directory #footer-wrapper {
   display: none;
 }
 
