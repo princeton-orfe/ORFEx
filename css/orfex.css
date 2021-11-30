@@ -412,6 +412,10 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   margin-bottom: 1em;
 }
 
+#edit-field-display-on-people-page {
+  clear: both;
+}
+
 .views-row {
   margin: 1em 0 1em 0;
 }
