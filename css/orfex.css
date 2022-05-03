@@ -442,6 +442,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
 
 #branding {
   background-color: white;
+  border-top: 4px solid #e77500;
 }
 #branding > .section {
   max-width: 1290px;
