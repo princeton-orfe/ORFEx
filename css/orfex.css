@@ -1,4 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+#toolbar div.toolbar-drawer {
+  padding: 0;
+}
+#toolbar div.toolbar-shortcuts {
+  display: inline-block;
+}
+
 .page-node-107192 #page-wrapper, .page-atrium-faculty-directory #page-wrapper, .page-atrium-admin-staff-directory #page-wrapper, .page-atrium-research-staff-directory #page-wrapper {
   background: black;
 }
@@ -211,6 +218,7 @@ p + h1, p + ul, ol + h2, p + h4, li + ol, ul + h1, p + h1, ol + p {
   display: inline;
   vertical-align: middle;
   margin: 0 0.25em 0 0.25em;
+  padding: 0;
 }
 .menu ul {
   margin: 0;
